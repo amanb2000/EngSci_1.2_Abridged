@@ -1,0 +1,144 @@
+\documentclass[a4paper,12pt]{report}
+\begin{document}
+\title{MAT195 TextBook Notes}
+\author{Aman Bhargava}
+\date{January 2019}
+\maketitle
+
+\tableofcontents
+
+\section{Review: Memorizy Stuff}
+\subsection{Trig Function Derivatives}
+\def\arraystretch{2}%
+\begin{tabular}{cc}
+$ \frac{d}{dx}sin(x) = cos(x) $ & $ \frac{d}{dx}csc(x) = -csc(x)cot(x) $ \\
+$ \frac{d}{dx}cos(x) = -sin(x) $ & $ \frac{d}{dx}sec(x) = sec(x)tan(x) $ \\
+$ \frac{d}{dx}tan(x) = sec^2(x) $ & $ \frac{d}{dx}cot(x) = -csc^2(x) $ \\
+\end{tabular}
+
+\subsection{Inverse Trig Derivatives}
+\def\arraystretch{2}%
+\begin{tabular}{cc}
+$ \frac{d}{dx}sin^{-1}(x) = \frac{1}{\sqrt(1-x^2)} $ \\
+$ \frac{d}{dx}cos^{-1}(x) = \frac{-1}{\sqrt(1-x^2)} $ \\
+$ \frac{d}{dx}tan^{-1}(x) = \frac{1}{1+x^2} $ \\
+\end{tabular}
+
+\subsection{How to complete the Square}
+\begin{enumerate}
+\item Put $ax^2 + bx$ in brackets and forcefully factor out the $a$
+\item Add $ ( \frac{b}{2})^2$ to the inside of the brackets and subtract it from the outside (you got it)
+\item Factor and be happy that you've completed the square;
+\end{enumerate}
+
+\subsection{Trig Angle Sums}
+\begin{enumerate}
+\item $sin(A+B) = sin(A)cos(B) + cos(A)sin(B)$
+\item $cos(A+B) = cos(A)cos(B) - sin(A)sin(B)$
+\item $sin(A-B) = sin(A)cos(B) - cos(A)sin(B)$
+\item $cos(A-B) = cos(A)cos(B) + sin(A)sin(B)$
+\end{enumerate}
+
+\subsection{Hyperbolic Trig Functions}
+\subsection{Inverse Hyperbolic Trig Function}
+
+\section{Introduction and Course Description}
+\chapter{Techniques of Integration (Chapter 7 in Textbook)}
+\section{Integration by Parts}
+
+Integration by parts is basically just the reverse product rule.\\
+
+Product rule: $d/dx [f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$\\
+
+You could reverse this simply, but it wouldn't be that useful. The more useful form that \textit{is} the integration by parts formula looks like this: $$\int [f(x)g'(x)] = f(x)g(x) - \int [f'(x)g(x)]$$
+
+You can think through that one pretty easily | you are just splitting up the initial integral, then moving half of it to the other side.\\
+
+That's pretty useful, but there's an even more useful way to write the formula, and it looks like this: $$\int u dv = uv - \int v du$$
+
+This works because we let $u = f(x)$ and $v = g(x)$. $g'(x) = v' = dv/dx$, and same with $u'$. So to get to that formula we go like this:
+\begin{eqnarray}
+\int uv' dx = uv - \int u'v dx \\
+\int u \frac{dv}{dx} dx = uv - \int v \frac{du}{dx} dx \\
+\int u dv = uv - \int v du
+\end{eqnarray}
+
+\subsection{Tips for Integration by Parts:}
+\begin{itemize}
+\item When using the $uv$ equation, it's useful to define things in this order:
+\begin{itemize}
+\item u = ? dv = ?
+\item du = ? v = ?
+\item keeping in mind that $u'dx = du$ and $\int \frac{dv}{dx} dx = \int v' = v$
+\end{itemize}
+\item Choose your $u$ so that it becomes simpler when differentiated, and let your $v$ be the thing that gets a little hairier.
+\item Practice a lot from the textbook, ya dingus
+\end{itemize}
+
+\section{Trigonometric Integrals}
+There are a bunch of configurations of trig functions for which we need to learn the steps necessary to take the integral. It's important to practice this because recognizing the form of the integral is the most difficult thing to do here.
+\subsection{Strategy for $\int sin^m (x)cos^n (x)$}
+\paragraph{If the power of cosine is odd:}
+"Save" one of the cosine terms, and then express it as $\int sin^m(x)cos^{2k+1}(x)*cos(x)$. Then turn the $cos^{2k+1}(x)$ into sin terms with pythagorean identity. Then substitute $u = sin(x)$ and solve.
+\paragraph{If the power of sine is odd:} 
+Do the same thing but reverse $sin$ and $cos$ (save one $sin(x)$ and sub $u$ for $cos(x)$
+\paragraph{If both powers are even:} 
+Use the following identities to help you solve it:
+\begin{eqnarray}
+sin^2 (x) = 1/2 (1-cos(2x)) \\
+cos^2 (x) = 1/2 (1+cos(2x)) \\
+sinxcosx = 1/2 sin2x
+\end{eqnarray}
+
+\subsection{Strategy for $\int tan^m (x)sec^n (x)$}
+\paragraph{If the power of $sec(x)$ is even,} "save" a factor of $sec^2 (x)$ and use identity $sec^2 (x) = 1+tan^2 (x)$ to express the rest in terms of $tan(x)$. Then substitute $u = tan(x)$
+\paragraph{If the power of tangent is odd,} save a factor of $sec(x)tan(x)$ and convert the rest of the $tan(x)$'s using $tan^2(x) = sec^2 (x) - 1$ 
+\paragraph{Also note the following:} $$\int tan(x) dx = ln|sec(x)| + C$$ $$\int sec(x) dx = ln|sec(x) + tan(x)| + C$$
+\paragraph{Remember this as well:} $$\frac{d}{dx} tan(x) = sec^2(x)$$ $$\frac{d}{dx} sec(x) = sec(x)tan(x)$$
+
+\subsection{Strategy for $\int sin(mx)cos(nx) dx$}
+Use the following identities:
+\begin{eqnarray}
+sin A cos B = 1/2 [sin(A-B) + sin(A+B)] \\
+sin A sin B = 1/2 [cos(A-B) - cos(A+B)] \\
+cos A cos B = 1/2 [cos(A-B) + cos(A+B)]
+\end{eqnarray}
+
+\subsection{Strategy for $\int csc^m (x)cot^n (x) dx$}
+Know the following things:
+\begin{eqnarray}
+\frac{d}{dx} csc(x) = -csc(x)cot(x) \\
+cot^2(x) = csc^2(x) - 1 \\
+\frac{d}{dx} cot(x) = -csc^2(x)
+\end{eqnarray}
+
+\section{Trig Sub}
+\paragraph{What is trig sub?} Trig sub is when you use the \textit{inverse substitution} rule in conjunction with useful trigonometric identities and trigonometric integrals to solve integrals that you wouldn't otherwise be able to solve.
+\subsection{Inverse Substitution}
+Unlike u-substitution, you are substituting in a non-equivalent function ($g(x)$) for x instead of substituting a variable like $u$ for the actual value of x. Hence, the following result arises: $$\int f(x) dx = \int f(g(x))g'(x) dx $$
+\paragraph{Qualificiations:} $g$ must have an inverse function, and $g$ must be one-to-one.
+\subsection{List of Trig Subs}
+The main use of trig subs is to get rid of irritating radical signs that make integration hard. The following is a table of types (from the textbook):
+
+\medskip
+\begin{tabular}{c|l|c}
+Expression & Substitution & Identity \\
+\hline
+$\sqrt{a^2 - x^2}$ & $x = a sin \theta$, $-\pi/2 <= \theta <= \pi/2$ & $1-sin^2 \theta = cos^2 \theta$ \\
+$\sqrt{a^2 + x^2}$ & $x = a tan \theta$, $-\pi/2 < \theta < \pi/2$ & $1+tan^2 \theta = sec^2 \theta$ \\
+$\sqrt{x^2 - a^2}$ & $x = a sec \theta$, $-\pi/2 <= \theta <= \pi/2$ & $sec^2 \theta - 1= tan^2 \theta$ \\
+\end{tabular}
+
+\subsection{General Layout for Trig Sub}
+\begin{enumerate}
+\item Make sure there is no other way (e.g. u-sub, etc.)
+\item If there is a quadratic in the root, complete the square
+\item Recognize the stuff in the root as one of the three.
+\item Set $x = a*trig(\theta)$ and find $dx$ in terms of $\theta$
+\item Solve the stuff.
+
+\end{enumerate}
+
+
+
+\end{document}
