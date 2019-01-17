@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  9 JAN 2019 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  16 JAN 2019 23:26
 entering extended mode
 **./MSE160.tex
 (MSE160.tex
@@ -105,7 +105,7 @@ Chapter 3.
 ] (MSE160.aux) ) 
 Here is how much of TeX's memory you used:
  273 strings out of 494866
- 3436 string characters out of 3176398
+ 3528 string characters out of 3176398
  59999 words of memory out of 3000000
  3996 multiletter control sequences out of 15000+200000
  9414 words of font info for 33 fonts, out of 3000000 for 9000
@@ -123,7 +123,7 @@ onts/type1/public/amsfonts/cm/cmr8.pfb></Users/abhargava/Library/Application Su
 pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/a
 bhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb>
-Output written on MSE160.pdf (8 pages, 103956 bytes).
+Output written on MSE160.pdf (8 pages, 104853 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

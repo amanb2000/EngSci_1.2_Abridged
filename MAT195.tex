@@ -139,6 +139,41 @@ $\sqrt{x^2 - a^2}$ & $x = a sec \theta$, $-\pi/2 <= \theta <= \pi/2$ & $sec^2 \t
 
 \end{enumerate}
 
+\section{Partial Fractions}
+This is just a way to break up rational functions in to little pieces that we can actually deal with.
+A proper rational function is one where the power on the top polynomial is lower than that of the bottom. Improper rationals are the other way around.
 
+In order to use partial fractions, you need to make the rational function a proper one.
+
+There are a few cases to consider for splitting things up into partial fractions:
+
+\subsection{Denominator is only distinct Linear Factors}
+\begin{enumerate}
+\item Set an equality between the original rational and $\frac{A}{(root_1)} + \frac{B}{(root2)} + ...$
+\item Multiply both sides by the denominator of the rational
+\item Expand and solve for $A, B, ...$
+\end{enumerate}
+
+\subsection{Denominator is only Linear Factors but some are Repeated}
+It's roughly the same as last time, EXCEPT:
+\begin{enumerate}
+\item Suppose $(root_1)$ is repeated $k$ times so $(root_1)^k$ is a factor
+\item Then you need to use $\frac{A_1}{(root_1)} + \frac{A_2}{(root_1)^2} + ... + \frac{A_k}{(root_1)^k}$
+\item Now solve as you did last time.
+\end{enumerate}
+
+\subsection{Denominator has non-repeated Quadratic Factors}
+Basically just have a linear term on top in the expansion, so $\frac{A_1x+B}{ax^2+bx+c}$ would be a term in the thing.
+
+\paragraph{Also, } $\int\frac{dx}{x^2+a^2} = \frac{1}{a}tan^{-1}(\frac{x}{a})+C$
+
+\subsection{Denominator has repeated Quadratic Factors}
+Roughly the same as when you have linear repeated factors. if you have $(root_1)^k$, then you get $$\frac{Ax+B}{(root_1)} + \frac{Cx+D}{(root_1)^2} + ... + \frac{Yx+Z}{(root_1)^k}$$
+Then just solve as before.
+
+\subsection{Rationalizing Substitutions}
+Use substitutions to make annoying functions into rational functions and solve from there. For instance, if you have a radical in the numerator, make the subsitution $u^2 = $ whatever was in the radical.
+
+\section{Improper Integrals (Involving Infinity)}
 
 \end{document}
