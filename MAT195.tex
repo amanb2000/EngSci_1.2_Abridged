@@ -174,6 +174,53 @@ Then just solve as before.
 \subsection{Rationalizing Substitutions}
 Use substitutions to make annoying functions into rational functions and solve from there. For instance, if you have a radical in the numerator, make the subsitution $u^2 = $ whatever was in the radical.
 
+\section{Strategy for Solving Integrals}
+\begin{enumerate}
+\item Simplify the integrand with identities/algebra if possible.
+\item Look for an obvious u-sub
+\item Classify the integrand according to its form:
+\begin{enumerate}
+\item Trig integral ($sin^m(x)cos^n(x)$, etc.)
+\item Rational Function
+\item Integration by parts - especially with $polynomial * transcendental function$
+\item Radicals $\to$ consider trig sub ($x = atan\theta$, etc.)
+\end{enumerate}
+\item Try again, using several methods, and drawing from your MASSIVE PAST EXPERIENCE
+
+\end{enumerate}
+
+
 \section{Improper Integrals (Involving Infinity)}
+\subsection{Definition of Improper Integral}
+$\int_{a}^{\infty} f(x) dx = \lim_{t \to \infty} \int_a^t f(x) dx $
+Convergent improper integrals have an actual value. Divergent improper integrals don't.
+Integrals from negative infinity to positive infinity exist if and only if the integral from -infinity to $a$ converges and the integral from $a$ to +infinity converges (it is the sum of the two).
+
+\paragraph{For $\int_1^{\infty} \frac{1}{x^p} dx$} is convergent if $p > 1$
+
+\paragraph{For integrals where the y value goes to infinity}, then you take limits around where it goes to infinity, ya dingus.
+
+\subsection{Comparison Theorem}
+You can prove that an integral is convergent if you can find another one for which the function is strictly of greater magnitude that is convergent (and likewise for non-convergency)
+
+\chapter{Further Applications of Integration}
+\section{Arc Length}
+\subsection{Definition of Arc Length}
+Arc length is the actual length of a curve. It is defined as: $$L = \lim_{n \to \infty} \sum_{i = 1}^{n} |P_{i-1},P_i|$$
+
+\subsection{Arc Length Formula}
+$$L = \int_a^b \sqrt{1 + [f'(x)]^2} dx $$
+
+
+
+
+
+
+
+
+
+
+
+
 
 \end{document}
