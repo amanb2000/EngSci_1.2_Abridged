@@ -1,7 +1,10 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage{color}
 \usepackage{graphicx}
+\usepackage{subfig}
 \usepackage{listings}
+\usepackage{movie15}
+\usepackage{hyperref}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -98,7 +101,34 @@ The right child becomes the head. The right child's parent (the root) becomes th
 \item For easy, child-free lines to the right and left (root balance = +-2, child banace = +-1 with same sign), use the corresponding rotation to make them triangle trees.
 \item For bent ones with root balance = +-2 and child balance +-1 of opposite sign), use minor rotation to get back to case 1 and do a major rotation on the root. 
 \end{enumerate}
-\subsubsection{AVL Tree: }
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{media/tree-rotation-summary.png}
+\caption{Summary of All Rotation Types}
+\label{Tree Rotation Summary}
+\end{figure}
+
+
+\begin{figure}%
+    \centering
+    \subfloat[label 1]{{\includegraphics[width=5cm]{media/left-rotation-1.png} }}%
+    \qquad
+    \subfloat[label 2]{{\includegraphics[width=5cm]{media/left-rotation-2.png} }}%
+    \caption{Visual Representation of a Left Rotation}%
+    \label{fig:example}%
+\end{figure}
+
+
+\begin{figure}%
+    \centering
+    \subfloat[label 1]{{\includegraphics[width=5cm]{media/right-rotation-1.png} }}%
+    \qquad
+    \subfloat[label 2]{{\includegraphics[width=5cm]{media/right-rotation-2.png} }}%
+    \caption{Visual Representation of a Right Rotation}%
+    \label{fig:example}%
+\end{figure}
+
 
 
 

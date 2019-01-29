@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction and Course Information}{}% 1
+\BOOKMARK [1][-]{section.2}{Efficiency and Complexity}{}% 2
+\BOOKMARK [1][-]{section.3}{Ideal vs. Real Computers}{}% 3
+\BOOKMARK [1][-]{section.4}{List ADT implementation in C}{}% 4
+\BOOKMARK [1][-]{section.5}{Stacks and Queues}{}% 5
+\BOOKMARK [2][-]{subsection.5.1}{Stacks}{section.5}% 6
+\BOOKMARK [2][-]{subsection.5.2}{Queues}{section.5}% 7
+\BOOKMARK [1][-]{section.6}{Trees}{}% 8
+\BOOKMARK [2][-]{subsection.6.1}{Types of Traversal:}{section.6}% 9
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Level Order Traversal: }{subsection.6.1}% 10
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Breadth Order Traversal: }{subsection.6.1}% 11
+\BOOKMARK [2][-]{subsection.6.2}{Binary Trees: }{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.3}{Mathai's Weird Definition for Binary Trees <==> Normal Trees}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.4}{Binary Search Trees: }{section.6}% 14
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Advantages/Disadvantages of Binary Search Trees: }{subsection.6.4}% 15
+\BOOKMARK [2][-]{subsection.6.5}{Self-Balancing BST's: }{section.6}% 16
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Types of Rotation: }{subsection.6.5}% 17
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Right Rotation: }{subsection.6.5}% 18
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Left Rotation: }{subsection.6.5}% 19
+\BOOKMARK [3][-]{subsubsection.6.5.4}{Major Right / Minor Left: }{subsection.6.5}% 20
+\BOOKMARK [3][-]{subsubsection.6.5.5}{Summary of Tree Rotations: }{subsection.6.5}% 21
