@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  12 JAN 2019 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  29 JAN 2019 12:00
 entering extended mode
 **./CSC190.tex
 (CSC190.tex
@@ -190,10 +190,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 15.
- (CSC190.toc)
+ (CSC190.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+)
 \tf@toc=\write3
 \openout3 = `CSC190.toc'.
 
+ [1
+
+{/Users/abhargava/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/
+pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
@@ -202,33 +213,26 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 29.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 29.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
- [1
-
-{/Users/abhargava/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/
-pdftex.map}] (CSC190.aux) ) 
+ [2] [3] [4] [5] (CSC190.aux) ) 
 Here is how much of TeX's memory you used:
- 2841 strings out of 494866
- 42815 string characters out of 3176398
- 99752 words of memory out of 3000000
- 6481 multiletter control sequences out of 15000+200000
- 8194 words of font info for 29 fonts, out of 3000000 for 9000
+ 2845 strings out of 494866
+ 42983 string characters out of 3176398
+ 101752 words of memory out of 3000000
+ 6484 multiletter control sequences out of 15000+200000
+ 8977 words of font info for 32 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 41i,6n,32p,275b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
-</Users/abhargava/Library/Application Support/MiKTeX
-/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/abhargava/Lib
-rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></Users/abhargava/Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CSC190.pdf (1 page, 49168 bytes).
+ 41i,6n,32p,439b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+</Users/abhargava/Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/abhargava
+/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/abhargava/Library/Applicatio
+n Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Use
+rs/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmtt12.pfb>
+Output written on CSC190.pdf (5 pages, 69937 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
