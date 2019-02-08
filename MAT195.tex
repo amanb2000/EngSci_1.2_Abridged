@@ -1,4 +1,7 @@
 \documentclass[a4paper,12pt]{report}
+
+\usepackage{amsmath,amsfonts,mathtools}
+
 \begin{document}
 \title{MAT195 TextBook Notes}
 \author{Aman Bhargava}
@@ -211,16 +214,62 @@ Arc length is the actual length of a curve. It is defined as: $$L = \lim_{n \to 
 \subsection{Arc Length Formula}
 $$L = \int_a^b \sqrt{1 + [f'(x)]^2} dx $$
 
+\section{Surface Area of Revolution}
+\subsection{Surface Area of Revolution Formulae}
+$$S = \int_a^b 2\pi y \sqrt{1+(\frac{dy}{dx})^2}dx$$
+$$S = \int_a^b 2\pi y \sqrt{1+(\frac{dx}{dy})^2}dy$$
+
+\section{Applications to Physics and Engineering}
+\subsection{Hydrostatic Force}
+Integral of the area of each slice times the pressure on that slice at that depth (pressure = density * depth)
+
+\subsection{Center of Mass}
+For a thin plate on the plane, the centroid is at $(\bar{x}, \bar{y})$ where:
+$$ \bar{x} = \frac{1}{A} \int_a^b x(f(x)-g(x))dx $$
+$$ \bar{y} = \frac{1}{2A} \int_a^b (f(x)^2 -g(x)^2) dx$$
+
+\subsection{Rotating cross sections around line}
+If cross section is completely outside of the line, volume = area * distanc traveled by cross section.
+
+\chapter{Parametric Equations and Polar Coordinates}
+\subsection{Tangents}
+$$\frac{dy}{dx} = \frac{ \frac{dy}{dt} }{ \frac{dx}{dt} }$$
+$$\frac{d^2y}{dx^2} = \frac{ \frac{d}{dt}(\frac{dy}{dx}) }{ \frac{dx}{dt} }$$
+
+\subsection{Integrals}
+\subsubsection{Normal Integral: Area from $\alpha \to \beta$}
+$$\int_{\alpha}^{\beta}y(t)*\frac{dx}{dt}dt$$
+\subsubsection{Arc Length}
+$$L = \int_{\alpha}^{\beta} \sqrt{ \frac{dx}{dt}^2 + \frac{dy}{dt}^2 }dt$$
+\subsubsection{Surface Area of Revolution: }
+$$S = \int_{\alpha}^{\beta} 2\pi y \sqrt{\frac{dx}{dt}^2 + \frac{dy}{dt}^2}dt$$
 
 
 
+\chapter{Polar Coordinates}
+\section{Quick Info: }
+\begin{enumerate}
+\item Points are in form $(r, \theta)$
+\item Origin denoted by $O$ or as "pole"
+\item For point $(x, y)$ in cartesian space and point $(r, \theta)$:
+\begin{itemize}
+\item $x = r cos \theta$
+\item $y = r sin \theta$
+\item $tan \theta = \frac{x}{y}$
+\end{itemize}
+\end{enumerate}
 
+\section{Symmetry}
+If an equation is unchanged when $\theta \to -\theta$, it is symmetric about line $\theta = 0$
+If an equation is unchanged when $r \to -r$ OR $\theta \to \theta + \pi$, it is symmetric about the pole.
+If an equation is unchanged when $\theta \to \pi - \theta$ then the curve is symmetric about the line $\theta = \pi/2$ (a vertical line in polar coordinates)
 
+\section{Tangents to Polar Curves}
+Treat as parametric equation. Steps:
+$$ x = r cos \theta = f(\theta) cos (\theta)$$
+$$ y = r sin \theta = f(\theta) sin (\theta)$$
 
-
-
-
-
+Then $\frac{dy}{dx}$ is just $\frac{dy}{d\theta}/\frac{dx}{d\theta}$
 
 
 \end{document}
