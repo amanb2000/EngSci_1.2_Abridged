@@ -232,6 +232,7 @@ $$ \bar{y} = \frac{1}{2A} \int_a^b (f(x)^2 -g(x)^2) dx$$
 If cross section is completely outside of the line, volume = area * distanc traveled by cross section.
 
 \chapter{Parametric Equations and Polar Coordinates}
+\section{Parametric Equations}
 \subsection{Tangents}
 $$\frac{dy}{dx} = \frac{ \frac{dy}{dt} }{ \frac{dx}{dt} }$$
 $$\frac{d^2y}{dx^2} = \frac{ \frac{d}{dt}(\frac{dy}{dx}) }{ \frac{dx}{dt} }$$
@@ -246,8 +247,8 @@ $$S = \int_{\alpha}^{\beta} 2\pi y \sqrt{\frac{dx}{dt}^2 + \frac{dy}{dt}^2}dt$$
 
 
 
-\chapter{Polar Coordinates}
-\section{Quick Info: }
+\section{Polar Coordinates}
+\subsection{Quick Info: }
 \begin{enumerate}
 \item Points are in form $(r, \theta)$
 \item Origin denoted by $O$ or as "pole"
@@ -259,17 +260,69 @@ $$S = \int_{\alpha}^{\beta} 2\pi y \sqrt{\frac{dx}{dt}^2 + \frac{dy}{dt}^2}dt$$
 \end{itemize}
 \end{enumerate}
 
-\section{Symmetry}
+\subsection{Symmetry}
 If an equation is unchanged when $\theta \to -\theta$, it is symmetric about line $\theta = 0$
 If an equation is unchanged when $r \to -r$ OR $\theta \to \theta + \pi$, it is symmetric about the pole.
 If an equation is unchanged when $\theta \to \pi - \theta$ then the curve is symmetric about the line $\theta = \pi/2$ (a vertical line in polar coordinates)
 
-\section{Tangents to Polar Curves}
+\subsection{Tangents to Polar Curves}
 Treat as parametric equation. Steps:
 $$ x = r cos \theta = f(\theta) cos (\theta)$$
 $$ y = r sin \theta = f(\theta) sin (\theta)$$
 
 Then $\frac{dy}{dx}$ is just $\frac{dy}{d\theta}/\frac{dx}{d\theta}$
+
+\section{Areas and Lengths in Polar Coordinates}
+\subsection{Area}
+\paragraph{Area of a Sector of a Circle}
+$$A = \frac{1}{2}r^2\theta$$
+\paragraph{Area Inside Curve: }
+$$A = \int_a^b \frac{1}{2} (f(\theta))^2 d\theta $$
+$$A = \int_a^b \frac{1}{2} r^2 d\theta $$
+
+\subsection{Arc Length}
+\subsubsection{Review of Parametric Arc Length}
+$$L = \int_a^b \sqrt{r^2 + (\frac{dr}{d\theta})^2 } d\theta$$
+
+
+\chapter{Infinite Sequences and Series}
+\section{Sequences}
+\paragraph{Definition: } List of numbers written in definite order. Notation is the same as set notation.
+\subsection{Limits of Sequences}
+\paragraph{A sequence has a limit $L$ if: } you can make $a_n$ as close as you want to $L$ by increasing $n$
+
+You can encorporate ($\delta$) $\epsilon$ notation if you want to.
+
+Also, if you can find a function that matches the sequence at all integer points, then you can just find the limit of the function using regular limit rules to find the limit of the sequence.
+
+You can also disperse the a limit inside of a function.
+$$\lim_{n \to \infty} sin(\pi/n) = sin( \lim_{n \to \infty} \pi /n )$$
+
+\subsection{Definitions}
+\paragraph{Monotonic sequences} are sequences that are either strictly increasing or strictly decreasing.
+\paragraph{Bounded above} if no value of $n$ will make $a_n$ greater than $M$. Ditto bounded below.
+\paragraph{Monotonic Sequence Theorem: } Every bounded, monotonic sequence is convergent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \end{document}
