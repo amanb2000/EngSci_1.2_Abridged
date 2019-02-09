@@ -10,8 +10,6 @@
 
 \tableofcontents
 
-
-\pagebreak
 \section{Review: Memorizy Stuff}
 \subsection{Trig Function Derivatives}
 \def\arraystretch{2}%
@@ -311,21 +309,6 @@ $$\lim_{n \to \infty} sin(\pi/n) = sin( \lim_{n \to \infty} \pi /n )$$
 $$s_1 = a_1, s_2 = a_1 + a_2, s_n = a_1 + ... + a_n$$
 $$s_n = \sum_{i=1}^{n} a_i$$
 \subsection{Infinite Series}
-$$\sum_{n=1}{\infty} a_n = \lim_{a \to \infty} \sum_{i=1}^{n} a_i$$
-
-\subsection{Geometric Series}
-If $a_n = (a_1)r^n$, then $s_n = a + ar + ar^2 + ... + ar^{n-1}$
-
-$$s_n = \frac{a(1-r^n)}{1-r}$$
-
-\subsection{Test for Divergence}
-If $\lim_{n \to \infty} a_n$ does not exist or equals $\infty$, then the infinite series of $a_n$ is divergent.
-
-\subsection{Working with Series}
-You can add and subtract series normally.
-$$\sum (a_n + b_n) = \sum a_n + \sum b_n$$
-$$\sum (c * a_n) = c \sum a_n$$
-
 
 
 
