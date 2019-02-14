@@ -83,3 +83,11 @@
 \contentsline {subsection}{\numberline {4.2.3}Geometric Series}{18}% 
 \contentsline {subsection}{\numberline {4.2.4}Test for Divergence}{18}% 
 \contentsline {subsection}{\numberline {4.2.5}Working with Series}{18}% 
+\contentsline {subsection}{\numberline {4.2.6}Comparison Test}{18}% 
+\contentsline {subsection}{\numberline {4.2.7}P-Series}{19}% 
+\contentsline {section}{\numberline {4.3}The Integral Test and Estimates of Sums}{19}% 
+\contentsline {subsection}{\numberline {4.3.1}Integral Test}{19}% 
+\contentsline {subsection}{\numberline {4.3.2}Estimating The Sum of a Series}{19}% 
+\contentsline {paragraph}{Remainder Estimate for the Integral Test}{19}% 
+\contentsline {section}{\numberline {4.4}Comparison Tests}{20}% 
+\contentsline {subsection}{\numberline {4.4.1}The Limit Comparison Test}{20}% 
