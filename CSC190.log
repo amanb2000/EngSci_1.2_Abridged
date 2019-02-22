@@ -1,25 +1,26 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  29 JAN 2019 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  22 FEB 2019 03:25
 entering extended mode
 **./CSC190.tex
 (CSC190.tex
 LaTeX2e <2018-12-01>
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
-base/article.cls"
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+base/report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 base/size12.clo"
 File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -84,43 +85,43 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen110
 \caption@hangindent=\dimen111
 )
-\c@caption@flags=\count88
-\c@ContinuedFloat=\count89
+\c@caption@flags=\count89
+\c@ContinuedFloat=\count90
 )
-\c@KVtest=\count90
+\c@KVtest=\count91
 \sf@farskip=\skip43
 \sf@captopadj=\dimen112
 \sf@capskip=\skip44
 \sf@nearskip=\skip45
-\c@subfigure=\count91
-\c@subfigure@save=\count92
-\c@lofdepth=\count93
-\c@subtable=\count94
-\c@subtable@save=\count95
-\c@lotdepth=\count96
+\c@subfigure=\count92
+\c@subfigure@save=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@subtable@save=\count96
+\c@lotdepth=\count97
 \sf@top=\skip46
 \sf@bottom=\skip47
 )
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 listings/listings.sty"
-\lst@mode=\count97
+\lst@mode=\count98
 \lst@gtempboxa=\box27
 \lst@token=\toks15
-\lst@length=\count98
+\lst@length=\count99
 \lst@currlwidth=\dimen113
-\lst@column=\count99
-\lst@pos=\count100
+\lst@column=\count100
+\lst@pos=\count101
 \lst@lostspace=\dimen114
 \lst@width=\dimen115
-\lst@newlines=\count101
-\lst@lineno=\count102
+\lst@newlines=\count102
+\lst@lineno=\count103
 \lst@maxwidth=\dimen116
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 listings/lstmisc.sty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count103
-\lst@skipnumbers=\count104
+\c@lstnumber=\count104
+\lst@skipnumbers=\count105
 \lst@framebox=\box28
 )
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
@@ -149,12 +150,12 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 ms/everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
-\@MXV@page=\count105
-\@MXV@adict=\count106
-\@MXV@aadict=\count107
-\@MXV@includes=\count108
-\@MXV@players=\count109
-\@MXV@links=\count110
+\@MXV@page=\count106
+\@MXV@adict=\count107
+\@MXV@aadict=\count108
+\@MXV@includes=\count109
+\@MXV@players=\count110
+\@MXV@links=\count111
 \@MXV@width=\dimen117
 \@MXV@height=\dimen118
 \@MXV@depth=\dimen119
@@ -229,8 +230,8 @@ oberdiek/kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen126
-\Hy@linkcounter=\count111
-\Hy@pagecounter=\count112
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 hyperref/pd1enc.def"
@@ -238,7 +239,7 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count113
+\Hy@SavedSpaceFactor=\count114
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 00miktex/hyperref.cfg"
@@ -251,7 +252,7 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count114
+\c@Hy@tempcnt=\count115
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 url/url.sty"
@@ -260,7 +261,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen127
-\Fld@menulength=\count115
+\Fld@menulength=\count116
 \Field@Width=\dimen128
 \Fld@charsize=\dimen129
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -272,17 +273,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count116
-\c@Item=\count117
-\c@Hfootnote=\count118
+\Hy@abspage=\count117
+\c@Item=\count118
+\c@Hfootnote=\count119
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 hyperref/hpdftex.def"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count119
-\c@bookmark@seq@number=\count120
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 oberdiek/rerunfilecheck.sty"
@@ -291,7 +292,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip48
-) (CSC190.aux)
+) (CSC190.aux
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+)
 \openout1 = `CSC190.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -312,16 +317,16 @@ LaTeX Font Info:    ... okay on input line 13.
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/contex
 t/base/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
+\scratchcounter=\count122
 \scratchdimen=\dimen130
 \scratchbox=\box30
-\nofMPsegments=\count122
-\nofMParguments=\count123
+\nofMPsegments=\count123
+\nofMParguments=\count124
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count124
+\MPscratchCnt=\count125
 \MPscratchDim=\dimen131
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks17
 )
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
@@ -344,7 +349,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count127
+\c@lstlisting=\count128
  ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 13.
@@ -357,7 +362,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 c/oberdiek/gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count128
+\c@section@level=\count129
 )
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
@@ -370,10 +375,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 19.
- (CSC190.toc)
+ [1
+
+{/Users/abhargava/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/
+pdftex.map}]
+(CSC190.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 ...lementation as List}{10}{subsection.3.7.1}
+                                                  % [1
+
+])
 \tf@toc=\write4
 \openout4 = `CSC190.toc'.
 
+ [2]
+Chapter 1.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
@@ -382,85 +407,107 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
- [1
+ [3
 
-{/Users/abhargava/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/
-pdftex.map}] [2] [3]
-<media/tree-rotation-summary.png, id=115, 1281.78876pt x 905.3825pt>
+] [4]
+Chapter 2.
+[5
+
+]
+Chapter 3.
+
+Overfull \hbox (13.62622pt too wide) in paragraph at lines 97--97
+[]\OT1/cmr/bx/n/14.4 Advantages/Disadvantages of Binary Search Trees: 
+ []
+
+[6
+
+] [7]
+<media/tree-rotation-summary.png, id=230, 1281.78876pt x 905.3825pt>
 File: media/tree-rotation-summary.png Graphic file (type png)
 <use media/tree-rotation-summary.png>
-Package pdftex.def Info: media/tree-rotation-summary.png  used on input line 10
-7.
+Package pdftex.def Info: media/tree-rotation-summary.png  used on input line 13
+3.
 (pdftex.def)             Requested size: 390.0pt x 275.47124pt.
-<media/left-rotation-1.png, id=117, 251.94125pt x 253.94875pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<media/left-rotation-1.png, id=232, 251.94125pt x 253.94875pt>
 File: media/left-rotation-1.png Graphic file (type png)
 <use media/left-rotation-1.png>
-Package pdftex.def Info: media/left-rotation-1.png  used on input line 115.
+Package pdftex.def Info: media/left-rotation-1.png  used on input line 141.
 (pdftex.def)             Requested size: 142.26378pt x 143.39606pt.
-<media/left-rotation-2.png, id=118, 243.91125pt x 245.91875pt>
+<media/left-rotation-2.png, id=233, 243.91125pt x 245.91875pt>
 File: media/left-rotation-2.png Graphic file (type png)
 <use media/left-rotation-2.png>
-Package pdftex.def Info: media/left-rotation-2.png  used on input line 117.
+Package pdftex.def Info: media/left-rotation-2.png  used on input line 143.
 (pdftex.def)             Requested size: 142.26378pt x 143.43597pt.
-<media/right-rotation-1.png, id=119, 245.91875pt x 243.91125pt>
+<media/right-rotation-1.png, id=234, 245.91875pt x 243.91125pt>
 File: media/right-rotation-1.png Graphic file (type png)
 <use media/right-rotation-1.png>
-Package pdftex.def Info: media/right-rotation-1.png  used on input line 125.
+Package pdftex.def Info: media/right-rotation-1.png  used on input line 151.
 (pdftex.def)             Requested size: 142.26378pt x 141.1076pt.
-<media/right-rotation-2.png, id=120, 249.93375pt x 247.92625pt>
+<media/right-rotation-2.png, id=235, 249.93375pt x 247.92625pt>
 File: media/right-rotation-2.png Graphic file (type png)
 <use media/right-rotation-2.png>
-Package pdftex.def Info: media/right-rotation-2.png  used on input line 127.
+Package pdftex.def Info: media/right-rotation-2.png  used on input line 153.
 (pdftex.def)             Requested size: 142.26378pt x 141.1265pt.
+[8]
+Overfull \hbox (16.01102pt too wide) in paragraph at lines 172--172
+[]\OT1/cmr/bx/n/14.4 When to use which rotation/HOW TO BALANCE: 
+ []
 
+[9 <./media/tree-rotation-summary.png>] [10 <./media/left-rotation-1.png> <./me
+dia/left-rotation-2.png> <./media/right-rotation-1.png> <./media/right-rotation
+-2.png>] [11]
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
-[4 <./media/tree-rotation-summary.png>] [5 <./media/left-rotation-1.png> <./med
-ia/left-rotation-2.png> <./media/right-rotation-1.png> <./media/right-rotation-
-2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (CSC190.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
-Package rerunfilecheck Info: File `CSC190.out' has not changed.
-(rerunfilecheck)             Checksum: 089D422FCC640AF02956C279DB5811CC;1519.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `CSC190.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
+Package rerunfilecheck Info: Checksums for `CSC190.out':
+(rerunfilecheck)             Before: 0D7D23FADF2286F660A60B5DF347B598;2334
+(rerunfilecheck)             After:  A6297F9757BE85ACD2DEC45A8BDFF8F7;2349.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 8151 strings out of 494866
- 128576 string characters out of 3176398
- 241647 words of memory out of 3000000
- 11691 multiletter control sequences out of 15000+200000
- 8977 words of font info for 32 fonts, out of 3000000 for 9000
+ 8225 strings out of 494866
+ 129344 string characters out of 3176398
+ 245254 words of memory out of 3000000
+ 11716 multiletter control sequences out of 15000+200000
+ 9583 words of font info for 34 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 44i,10n,49p,442b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,10n,49p,442b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
 </Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb></Users/abhargava/Library/Application Support/
-MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/abhargav
-a/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/abhargava/Library/Applicati
-on Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Us
+MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/abharga
+va/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/abhargava/Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Us
 ers/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmtt12.pfb>
-Output written on CSC190.pdf (5 pages, 765417 bytes).
+lic/amsfonts/cm/cmsy10.pfb></Users/abhargava/Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on CSC190.pdf (13 pages, 801642 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
