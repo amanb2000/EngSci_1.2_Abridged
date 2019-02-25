@@ -8,26 +8,28 @@
 \BOOKMARK [2][-]{subsection.2.1.1}{Stacks}{section.2.1}% 8
 \BOOKMARK [2][-]{subsection.2.1.2}{Queues}{section.2.1}% 9
 \BOOKMARK [0][-]{chapter.3}{Trees}{}% 10
-\BOOKMARK [1][-]{section.3.1}{Types of Traversal:}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.2}{Binary Trees: }{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.2.1}{Mathai's Weird Definition for Binary Trees vs. Normal Trees}{section.3.2}% 13
-\BOOKMARK [2][-]{subsection.3.2.2}{Binary Search Trees: }{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.3}{Advantages/Disadvantages of Binary Search Trees: }{section.3.2}% 15
-\BOOKMARK [1][-]{section.3.3}{Self-Balancing BST's: }{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.3.1}{Right Rotation: }{section.3.3}% 17
-\BOOKMARK [2][-]{subsection.3.3.2}{Left Rotation: }{section.3.3}% 18
-\BOOKMARK [2][-]{subsection.3.3.3}{Major Right / Minor Left: }{section.3.3}% 19
-\BOOKMARK [2][-]{subsection.3.3.4}{Summary of Tree Rotations: }{section.3.3}% 20
-\BOOKMARK [2][-]{subsection.3.3.5}{Inserting to a Binary Tree}{section.3.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.6}{Deleting from a Binary Tree}{section.3.3}% 22
-\BOOKMARK [1][-]{section.3.4}{AVL Tree}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.4.1}{When to use which rotation/HOW TO BALANCE: }{section.3.4}% 24
-\BOOKMARK [2][-]{subsection.3.4.2}{Adding to AVL Trees: }{section.3.4}% 25
-\BOOKMARK [2][-]{subsection.3.4.3}{Deleting from AVL Trees: }{section.3.4}% 26
-\BOOKMARK [1][-]{section.3.5}{Priority Queues}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.6}{Hashes and Strings}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.7}{Heap}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.7.1}{Implementation as List}{section.3.7}% 30
-\BOOKMARK [2][-]{subsection.3.7.2}{Adding to a Heap}{section.3.7}% 31
-\BOOKMARK [2][-]{subsection.3.7.3}{Deleting from Heap}{section.3.7}% 32
-\BOOKMARK [2][-]{subsection.3.7.4}{Searching a Heap}{section.3.7}% 33
+\BOOKMARK [1][-]{section.3.1}{Types of General Traversal:}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.1.1}{Using Stacks and Queues for Traversals}{section.3.1}% 12
+\BOOKMARK [1][-]{section.3.2}{Binary Trees: }{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{Mathai's Weird Definition for Binary Trees vs. Normal Trees}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.2}{Binary Search Trees: }{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.3}{Advantages/Disadvantages of Binary Search Trees: }{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.4}{Binary Tree Traversals}{section.3.2}% 17
+\BOOKMARK [1][-]{section.3.3}{Self-Balancing BST's \(AVL Trees\): }{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.1}{Right Rotation: }{section.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.2}{Left Rotation: }{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.3}{Major Right / Minor Left: }{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.4}{Summary of Tree Rotations: }{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.5}{Inserting to a Binary Tree}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.6}{Deleting from a Binary Tree}{section.3.3}% 24
+\BOOKMARK [1][-]{section.3.4}{AVL Tree}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.4.1}{When to use which rotation/HOW TO BALANCE: }{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.2}{Adding to AVL Trees: }{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.3}{Deleting from AVL Trees: }{section.3.4}% 28
+\BOOKMARK [1][-]{section.3.5}{Priority Queues}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.6}{Hashes and Strings}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.7}{Heap}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.7.1}{Implementation as List}{section.3.7}% 32
+\BOOKMARK [2][-]{subsection.3.7.2}{Adding to a Heap}{section.3.7}% 33
+\BOOKMARK [2][-]{subsection.3.7.3}{Deleting from Heap}{section.3.7}% 34
+\BOOKMARK [2][-]{subsection.3.7.4}{Searching a Heap}{section.3.7}% 35

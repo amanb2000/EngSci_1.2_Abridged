@@ -9,37 +9,42 @@
 \contentsline {subsection}{\numberline {2.1.1}Stacks}{5}{subsection.2.1.1}% 
 \contentsline {subsection}{\numberline {2.1.2}Queues}{5}{subsection.2.1.2}% 
 \contentsline {chapter}{\numberline {3}Trees}{6}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Types of Traversal:}{6}{section.3.1}% 
-\contentsline {subsubsection}{Level Order Traversal: }{6}{section*.3}% 
-\contentsline {subsubsection}{Breadth Order Traversal: }{6}{section*.4}% 
-\contentsline {section}{\numberline {3.2}Binary Trees: }{6}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Mathai's Weird Definition for Binary Trees vs. Normal Trees}{6}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Binary Search Trees: }{6}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.1}Types of General Traversal:}{6}{section.3.1}% 
+\contentsline {subsubsection}{Breadth-First Traversal: }{6}{section*.3}% 
+\contentsline {subsubsection}{Depth-First Traversal: }{6}{section*.4}% 
+\contentsline {subsection}{\numberline {3.1.1}Using Stacks and Queues for Traversals}{6}{subsection.3.1.1}% 
+\contentsline {paragraph}{Remember: }{6}{section*.5}% 
+\contentsline {paragraph}{How does it work?}{6}{section*.6}% 
+\contentsline {section}{\numberline {3.2}Binary Trees: }{7}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Mathai's Weird Definition for Binary Trees vs. Normal Trees}{7}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Binary Search Trees: }{7}{subsection.3.2.2}% 
 \contentsline {subsection}{\numberline {3.2.3}Advantages/Disadvantages of Binary Search Trees: }{7}{subsection.3.2.3}% 
-\contentsline {section}{\numberline {3.3}Self-Balancing BST's: }{7}{section.3.3}% 
-\contentsline {paragraph}{Level of imbalance: }{7}{section*.5}% 
-\contentsline {paragraph}{Printing Binary Trees in Order: }{7}{section*.6}% 
-\contentsline {subsubsection}{Types of Rotation: }{7}{section*.7}% 
-\contentsline {subsection}{\numberline {3.3.1}Right Rotation: }{7}{subsection.3.3.1}% 
-\contentsline {paragraph}{When to do this? }{7}{section*.8}% 
+\contentsline {subsection}{\numberline {3.2.4}Binary Tree Traversals}{7}{subsection.3.2.4}% 
+\contentsline {paragraph}{Mnemonic: }{7}{section*.7}% 
+\contentsline {section}{\numberline {3.3}Self-Balancing BST's (AVL Trees): }{7}{section.3.3}% 
+\contentsline {paragraph}{Level of imbalance: }{7}{section*.8}% 
+\contentsline {paragraph}{Printing Binary Trees in Order: }{8}{section*.9}% 
+\contentsline {subsubsection}{Types of Rotation: }{8}{section*.10}% 
+\contentsline {subsection}{\numberline {3.3.1}Right Rotation: }{8}{subsection.3.3.1}% 
+\contentsline {paragraph}{When to do this? }{8}{section*.11}% 
 \contentsline {subsection}{\numberline {3.3.2}Left Rotation: }{8}{subsection.3.3.2}% 
 \contentsline {subsection}{\numberline {3.3.3}Major Right / Minor Left: }{8}{subsection.3.3.3}% 
-\contentsline {paragraph}{When to do this: }{8}{section*.9}% 
-\contentsline {subsection}{\numberline {3.3.4}Summary of Tree Rotations: }{8}{subsection.3.3.4}% 
-\contentsline {subsection}{\numberline {3.3.5}Inserting to a Binary Tree}{8}{subsection.3.3.5}% 
-\contentsline {subsection}{\numberline {3.3.6}Deleting from a Binary Tree}{8}{subsection.3.3.6}% 
-\contentsline {section}{\numberline {3.4}AVL Tree}{9}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}When to use which rotation/HOW TO BALANCE: }{9}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Adding to AVL Trees: }{9}{subsection.3.4.2}% 
-\contentsline {subsection}{\numberline {3.4.3}Deleting from AVL Trees: }{9}{subsection.3.4.3}% 
+\contentsline {paragraph}{When to do this: }{8}{section*.12}% 
+\contentsline {subsection}{\numberline {3.3.4}Summary of Tree Rotations: }{9}{subsection.3.3.4}% 
+\contentsline {subsection}{\numberline {3.3.5}Inserting to a Binary Tree}{9}{subsection.3.3.5}% 
+\contentsline {subsection}{\numberline {3.3.6}Deleting from a Binary Tree}{11}{subsection.3.3.6}% 
+\contentsline {section}{\numberline {3.4}AVL Tree}{11}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}When to use which rotation/HOW TO BALANCE: }{11}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Adding to AVL Trees: }{11}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Deleting from AVL Trees: }{11}{subsection.3.4.3}% 
 \contentsline {section}{\numberline {3.5}Priority Queues}{11}{section.3.5}% 
 \contentsline {section}{\numberline {3.6}Hashes and Strings}{11}{section.3.6}% 
-\contentsline {paragraph}{Example: }{11}{section*.13}% 
-\contentsline {paragraph}{Problem: }{11}{section*.14}% 
-\contentsline {paragraph}{Solution 1: Chaining }{11}{section*.15}% 
-\contentsline {paragraph}{Solution 2: Open Addressiong }{11}{section*.16}% 
-\contentsline {section}{\numberline {3.7}Heap}{11}{section.3.7}% 
+\contentsline {paragraph}{Example: }{12}{section*.16}% 
+\contentsline {paragraph}{Problem: }{12}{section*.17}% 
+\contentsline {paragraph}{Solution 1: Chaining }{12}{section*.18}% 
+\contentsline {paragraph}{Solution 2: Open Addressiong }{12}{section*.19}% 
+\contentsline {section}{\numberline {3.7}Heap}{12}{section.3.7}% 
 \contentsline {subsection}{\numberline {3.7.1}Implementation as List}{12}{subsection.3.7.1}% 
 \contentsline {subsection}{\numberline {3.7.2}Adding to a Heap}{12}{subsection.3.7.2}% 
 \contentsline {subsection}{\numberline {3.7.3}Deleting from Heap}{12}{subsection.3.7.3}% 
-\contentsline {subsection}{\numberline {3.7.4}Searching a Heap}{12}{subsection.3.7.4}% 
+\contentsline {subsection}{\numberline {3.7.4}Searching a Heap}{13}{subsection.3.7.4}% 

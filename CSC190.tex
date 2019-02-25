@@ -85,11 +85,22 @@ One class of algorithms in big Oh notation is said to dominate another if their 
 \end{itemize}
 
 \chapter{Trees}
-\section{Types of Traversal:}
-\subsubsection{Level Order Traversal: }
+\section{Types of General Traversal:}
+\subsubsection{Breadth-First Traversal: }
 In which you read (1) right to left (2) top to bottom.
-\subsubsection{Breadth Order Traversal: }
-In which you put stuff on the same level of the tree at the same indentation level, and the children of nodes are indented underneath it.
+\subsubsection{Depth-First Traversal: }
+In which you read (1) top to bottom (2) right to left
+
+\subsection{Using Stacks and Queues for Traversals}
+\paragraph{Remember: } Stacks $\to$ Depth-First. Queues $\to$ Breadth-First. 
+\paragraph{How does it work?}
+On inspection, you would think that recursion is the only way to effectively traverse a tree in a depth/breadth-first manner in an easy way. However, you can employ stacks and queues to do this iteritavely. Here are the steps:
+\begin{enumerate}
+\item Add the root node to the {stack, queue} per the above statement.
+\item Pop/dequeue the dequeueing point and print it. Add its children to the {stack, queue}
+\item Repeat step 2 until finished. 
+\end{enumerate}
+This isn't immediately intuitive, but it holds true. Try this on a tree on paper to convince yourself! It's a really cool property of trees/stacks/queues :)
 
 \section{Binary Trees: }
 \subsection{Mathai's Weird Definition for Binary Trees vs. Normal Trees}
@@ -102,7 +113,15 @@ Think about the binary search algorithm. The rule is simple: Start with the firs
 \item Disadvantage: If it's not a balanced tree, you could end up with a BST that has \#levels = \#nodes
 \end{enumerate}
 
-\section{Self-Balancing BST's: }
+\subsection{Binary Tree Traversals}
+\begin{enumerate}
+\item Pre-Order: NLR
+\item Post-Order: LRN
+\item In-Order: LNR
+\end{enumerate}
+\paragraph{Mnemonic: } The 'pre'/'post'/'in' refers to the placement of the NODE between/in front of/after the L and R node.
+
+\section{Self-Balancing BST's (AVL Trees): }
 The general way we balance binary search trees is with \textbf{rotations}
 \paragraph{Level of imbalance: } calculated as nR (number of levels on the right side of the node) minus nL.
 \paragraph{Printing Binary Trees in Order: } When you print the left subtree first, then the node, then the right subtree (recursively)

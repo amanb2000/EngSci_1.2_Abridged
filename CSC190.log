@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  22 FEB 2019 03:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  25 FEB 2019 18:37
 entering extended mode
 **./CSC190.tex
 (CSC190.tex
@@ -390,7 +390,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 ...lementation as List}{10}{subsection.3.7.1}
+l.40 ... {3.6}Hashes and Strings}{10}{section.3.6}
                                                   % [1
 
 ])
@@ -415,83 +415,73 @@ Chapter 2.
 
 ]
 Chapter 3.
+[6
 
-Overfull \hbox (13.62622pt too wide) in paragraph at lines 97--97
+]
+Overfull \hbox (13.62622pt too wide) in paragraph at lines 110--110
 []\OT1/cmr/bx/n/14.4 Advantages/Disadvantages of Binary Search Trees: 
  []
 
-[6
-
-] [7]
-<media/tree-rotation-summary.png, id=230, 1281.78876pt x 905.3825pt>
+[7] [8]
+<media/tree-rotation-summary.png, id=254, 1281.78876pt x 905.3825pt>
 File: media/tree-rotation-summary.png Graphic file (type png)
 <use media/tree-rotation-summary.png>
-Package pdftex.def Info: media/tree-rotation-summary.png  used on input line 13
-3.
+Package pdftex.def Info: media/tree-rotation-summary.png  used on input line 15
+4.
 (pdftex.def)             Requested size: 390.0pt x 275.47124pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<media/left-rotation-1.png, id=232, 251.94125pt x 253.94875pt>
+<media/left-rotation-1.png, id=256, 251.94125pt x 253.94875pt>
 File: media/left-rotation-1.png Graphic file (type png)
 <use media/left-rotation-1.png>
-Package pdftex.def Info: media/left-rotation-1.png  used on input line 141.
+Package pdftex.def Info: media/left-rotation-1.png  used on input line 162.
 (pdftex.def)             Requested size: 142.26378pt x 143.39606pt.
-<media/left-rotation-2.png, id=233, 243.91125pt x 245.91875pt>
+<media/left-rotation-2.png, id=257, 243.91125pt x 245.91875pt>
 File: media/left-rotation-2.png Graphic file (type png)
 <use media/left-rotation-2.png>
-Package pdftex.def Info: media/left-rotation-2.png  used on input line 143.
+Package pdftex.def Info: media/left-rotation-2.png  used on input line 164.
 (pdftex.def)             Requested size: 142.26378pt x 143.43597pt.
-<media/right-rotation-1.png, id=234, 245.91875pt x 243.91125pt>
+<media/right-rotation-1.png, id=258, 245.91875pt x 243.91125pt>
 File: media/right-rotation-1.png Graphic file (type png)
 <use media/right-rotation-1.png>
-Package pdftex.def Info: media/right-rotation-1.png  used on input line 151.
+Package pdftex.def Info: media/right-rotation-1.png  used on input line 172.
 (pdftex.def)             Requested size: 142.26378pt x 141.1076pt.
-<media/right-rotation-2.png, id=235, 249.93375pt x 247.92625pt>
+<media/right-rotation-2.png, id=259, 249.93375pt x 247.92625pt>
 File: media/right-rotation-2.png Graphic file (type png)
 <use media/right-rotation-2.png>
-Package pdftex.def Info: media/right-rotation-2.png  used on input line 153.
+Package pdftex.def Info: media/right-rotation-2.png  used on input line 174.
 (pdftex.def)             Requested size: 142.26378pt x 141.1265pt.
-[8]
-Overfull \hbox (16.01102pt too wide) in paragraph at lines 172--172
+ [9 <./media/tree-rotation-summary.png>] [10 <./media/left-rotation-1.png> <./m
+edia/left-rotation-2.png> <./media/right-rotation-1.png> <./media/right-rotatio
+n-2.png>]
+Overfull \hbox (16.01102pt too wide) in paragraph at lines 193--193
 []\OT1/cmr/bx/n/14.4 When to use which rotation/HOW TO BALANCE: 
  []
 
-[9 <./media/tree-rotation-summary.png>] [10 <./media/left-rotation-1.png> <./me
-dia/left-rotation-2.png> <./media/right-rotation-1.png> <./media/right-rotation
--2.png>] [11]
+[11]
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
+[12] [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
  (CSC190.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
+Package rerunfilecheck Info: File `CSC190.out' has not changed.
+(rerunfilecheck)             Checksum: 2AB654C3952229BE6A8AF1363BB85F34;2539.
 
-
-Package rerunfilecheck Warning: File `CSC190.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CSC190.out':
-(rerunfilecheck)             Before: 0D7D23FADF2286F660A60B5DF347B598;2334
-(rerunfilecheck)             After:  A6297F9757BE85ACD2DEC45A8BDFF8F7;2349.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
  ) 
 Here is how much of TeX's memory you used:
- 8225 strings out of 494866
- 129344 string characters out of 3176398
+ 8239 strings out of 494866
+ 129494 string characters out of 3176398
  245254 words of memory out of 3000000
- 11716 multiletter control sequences out of 15000+200000
+ 11718 multiletter control sequences out of 15000+200000
  9583 words of font info for 34 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  44i,10n,49p,442b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -505,9 +495,9 @@ ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Us
 ers/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></Users/abhargava/Library/Application Support/MiKTeX
 /texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on CSC190.pdf (13 pages, 801642 bytes).
+Output written on CSC190.pdf (14 pages, 807015 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 
