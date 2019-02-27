@@ -353,25 +353,81 @@ $$ \int_{n+1}^{\infty}f(x) dx \leq R_n \leq \int_n^{\infty}f(x) dx$$
 
 \section{Comparison Tests}
 \subsection{The Limit Comparison Test}
-Let $\sum a_n$ and $\sum b_n$ are series with positive terms. If $$lim_{n \to \infty} \frac{a_n}{b_n} = c$$ and c is a finite number > 0, then both either converge or diverge.
+Let $\sum a_n$ and $\sum b_n$ are series with positive terms. If $$lim_{n \to \infty} \frac{a_n}{b_n} = c$$ and c is a finite number $>$ 0, then both either converge or diverge.
 
+\section{Alternating Series}
+Convergence tests so far only apply to positive series. 
+\subsection{Alternating Series Test}
+$$\sum_{n=1}^{\infty} (-1)^{n-1} b_n = b_1 - b_2 + b_3 - b_4 + ... b_n > 0$$
+\paragraph{If } the series obeys:
+\begin{enumerate}
+\item $b_{n+1} \leq b_n$ for all n
+\item $lim_{n \to \infty} b_n = 0$
+\end{enumerate}
+Then the series is CONVERGENT.
 
+\paragraph{Fun fact: } $s_{2n} \leq b_1$ for all n. 
 
+\subsection{Estimating Sums for Alternating Series}
+\paragraph{Alternating Series Estimation Theorem: } If $s = \sum (-1)^{n-1} b_n$ where $b_n$ > 0, and the series $b$ converges to zero and is strictly decreases, then:
+$$ |R_n| = |s-s_n| \leq b_{n+1} $$
 
+\section{Absolute Convergence and Ratio and Roots Test}
+\subsection{Absolute Convergence}
+\paragraph{Definition: } $\sum a_n$ is convergent is $\sum |a_n|$ converges.
 
+\paragraph{Conditional Convergence: } When a series is convergent, but not absolutely so (depends on the operators between values in series).
 
+\subsection{Ratio Test}
+\begin{enumerate}
+\item if $lim_{n\to\infty} |(a_{n+1}/a_n| = L < 1$, then the sequence is \textbf{absolutely convergent}
+\item if the result of the above is $> 1$, then the sequence is \textbf{divergent}
+\item if the result of the above is $= 1$, then the ratio test was \textbf{inconclusive}.
+\end{enumerate}
 
+\subsection{Root Test}
+This is just the same as the ratio test, but as it turnt out, you can apply the ratio test to stuff inside nth roots and the same results will be forthcoming. 
 
+\subsection{Rearrangements}
+\begin{enumerate}
+\item Any rearrangement of a \textbf{absolutely convergent} series is the same.
+\end{enumerate}
 
+Non-absolutely convergent series don't have the same sums necessarily when the order is changed. 
 
+\section{Strategy for Series: }
+\begin{enumerate}
+\item Is it a p-series (form: $\sum 1/{n^p}$)? If p > 1, it converges, otherwise, it doesn't. 
+\item Is it a geometric series (form: $\sum ar^{n-1}$? If $|r| < 1$, then it converges. Otherwise it diverges.
+\item If it is similar to a p-series or geometric series, use a comparison test.
+\item If you can tell that $\lim_{n\to\infty} a_n \neq 0$, use \textbf{Test for Divegence} 
+\item If it's $\sum(-1)^{n-1}b_n$ or of a similar form, then alternating series tests are the way to go. 
+\item If it involves factorials or other products (e.g. constants raised to some power), use the ratio test. 
+\item Use the root test for if $a_n$ is of form $(b_n)^n$
+\item If the corresponding integral is easy to evaluate, then use the integral test. 
+\end{enumerate}
 
+\section{Power Series}
+Of the form: 
+$$\sum_{n=0}^{\infty} c_n x^n = c_0 + c_1x + c_2x^2 + ... + c_nx^n$$
 
+$x$ is a variable, $c_n$ is a sequence of coefficients.
 
+Converges when $-1 < x < 1$ if all $c_n$ are one. 
 
+\paragraph{Power Series "Centered at $a$" or "In $(x-a)$"} when:
+$$\sum_{n=0}^{\infty} c_n(x-a)^n = c_0 + c_1(x-a) + c_2(x-a)^2 + ...$$
+Always converges for $x = a$ because all terms after $c_0$ reduce to 0.
 
+\subsection{3 Possibilities for Power Series}
+\begin{enumerate}
+\item The series converges only when x = a
+\item The series converges for all x
+\item \exists R so that if $|(x-a)| < R$ then the series will converge. R is "radius of convergence".
+\end{enumerate}
 
-
-
+\section{Representing Functions as Power Series}
+$$\frac{1}{1-x} = 1 + x + x^2 + ... = \sum_{n=0}^{\infty}x^n$$ where |x|<1
 
 
 

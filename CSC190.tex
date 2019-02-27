@@ -20,6 +20,14 @@
 \tableofcontents
 
 \section{Introduction and Course Information}
+\begin{itemize}
+\item Professor: John Mathai
+\item Course: Engineering Science
+\item Term: 2019 Spring
+\item Term Test 1: February 26, 2018
+\item Term Test 2: 
+\item Exam: 
+\end{itemize}
 
 \chapter{Efficiency and Complexity}
 There are two things that effect efficiency of a computer algorithm.
@@ -248,5 +256,25 @@ Max heap = top heavy. Min heap = bottom heavy.
 \subsection{Searching a Heap}
 You have to search everything. But you can stop if you reach something larger (in the case of a min heap) or smaller (in the case of a max heap). 
 
+\chapter{Graphs}
+\paragraph{What's a graph? } Bunch of nodes with connections (verticies and edge). Each connection/edge can have a weight. Connections/edges can either be directional or non-directional. The path length between two is the sum of the weights of the edges that you traverse to get there. 
+
+\paragraph{What about notation? } $E_{a \to b}$ connects a to b. If it's non-directional, then $E_{b \to a}$ is therefore valid and existent. However, if it is a directional edge, then it does not necessary exist.
+
+\section{Paths}
+A set of connected edges and nodes that leads from one node to another.
+
+\section{Cycles}
+A path that leads back to where it started without using any edges twice. Must use an edge.
+
+\section{Strength of Connections}
+If $A \to B$ in a non-directional way, it is a strong connection. However, if $A \to B$ is directional, it is considerred weak. Also, if it is indirectly connected, it doesn't affect the strength of the connection.
+
+\section{Articulation Vertex}
+A vertex that, if removed, will change the connectivity of other verticies. 
+
+\section{Traversal of Graphs}
+
+\section{Pathfinding of Graphs}
 
 \end{document}

@@ -1,93 +1,107 @@
-\contentsline {section}{\numberline {0.1}Review: Memorizy Stuff}{3}% 
-\contentsline {subsection}{\numberline {0.1.1}Trig Function Derivatives}{3}% 
-\contentsline {subsection}{\numberline {0.1.2}Inverse Trig Derivatives}{3}% 
-\contentsline {subsection}{\numberline {0.1.3}How to complete the Square}{3}% 
-\contentsline {subsection}{\numberline {0.1.4}Trig Angle Sums}{3}% 
-\contentsline {subsection}{\numberline {0.1.5}Hyperbolic Trig Functions}{4}% 
-\contentsline {subsection}{\numberline {0.1.6}Inverse Hyperbolic Trig Function}{4}% 
-\contentsline {section}{\numberline {0.2}Introduction and Course Description}{4}% 
-\contentsline {chapter}{\numberline {1}Techniques of Integration (Chapter 7 in Textbook)}{5}% 
-\contentsline {section}{\numberline {1.1}Integration by Parts}{5}% 
-\contentsline {subsection}{\numberline {1.1.1}Tips for Integration by Parts:}{6}% 
-\contentsline {section}{\numberline {1.2}Trigonometric Integrals}{6}% 
-\contentsline {subsection}{\numberline {1.2.1}Strategy for $\DOTSI \intop \ilimits@ sin^m (x)cos^n (x)$}{6}% 
-\contentsline {paragraph}{If the power of cosine is odd:}{6}% 
-\contentsline {paragraph}{If the power of sine is odd:}{6}% 
-\contentsline {paragraph}{If both powers are even:}{7}% 
-\contentsline {subsection}{\numberline {1.2.2}Strategy for $\DOTSI \intop \ilimits@ tan^m (x)sec^n (x)$}{7}% 
-\contentsline {paragraph}{If the power of $sec(x)$ is even,}{7}% 
-\contentsline {paragraph}{If the power of tangent is odd,}{7}% 
-\contentsline {paragraph}{Also note the following:}{7}% 
-\contentsline {paragraph}{Remember this as well:}{7}% 
-\contentsline {subsection}{\numberline {1.2.3}Strategy for $\DOTSI \intop \ilimits@ sin(mx)cos(nx) dx$}{7}% 
-\contentsline {subsection}{\numberline {1.2.4}Strategy for $\DOTSI \intop \ilimits@ csc^m (x)cot^n (x) dx$}{8}% 
-\contentsline {section}{\numberline {1.3}Trig Sub}{8}% 
-\contentsline {paragraph}{What is trig sub?}{8}% 
-\contentsline {subsection}{\numberline {1.3.1}Inverse Substitution}{8}% 
-\contentsline {paragraph}{Qualificiations:}{8}% 
-\contentsline {subsection}{\numberline {1.3.2}List of Trig Subs}{8}% 
-\contentsline {subsection}{\numberline {1.3.3}General Layout for Trig Sub}{9}% 
-\contentsline {section}{\numberline {1.4}Partial Fractions}{9}% 
-\contentsline {subsection}{\numberline {1.4.1}Denominator is only distinct Linear Factors}{9}% 
-\contentsline {subsection}{\numberline {1.4.2}Denominator is only Linear Factors but some are Repeated}{9}% 
-\contentsline {subsection}{\numberline {1.4.3}Denominator has non-repeated Quadratic Factors}{10}% 
-\contentsline {paragraph}{Also, }{10}% 
-\contentsline {subsection}{\numberline {1.4.4}Denominator has repeated Quadratic Factors}{10}% 
-\contentsline {subsection}{\numberline {1.4.5}Rationalizing Substitutions}{10}% 
-\contentsline {section}{\numberline {1.5}Strategy for Solving Integrals}{10}% 
-\contentsline {section}{\numberline {1.6}Improper Integrals (Involving Infinity)}{11}% 
-\contentsline {subsection}{\numberline {1.6.1}Definition of Improper Integral}{11}% 
-\contentsline {paragraph}{For $\DOTSI \intop \ilimits@ _1^{\infty } \frac {1}{x^p} dx$}{11}% 
-\contentsline {paragraph}{For integrals where the y value goes to infinity}{11}% 
-\contentsline {subsection}{\numberline {1.6.2}Comparison Theorem}{11}% 
-\contentsline {chapter}{\numberline {2}Further Applications of Integration}{12}% 
-\contentsline {section}{\numberline {2.1}Arc Length}{12}% 
-\contentsline {subsection}{\numberline {2.1.1}Definition of Arc Length}{12}% 
-\contentsline {subsection}{\numberline {2.1.2}Arc Length Formula}{12}% 
-\contentsline {section}{\numberline {2.2}Surface Area of Revolution}{12}% 
-\contentsline {subsection}{\numberline {2.2.1}Surface Area of Revolution Formulae}{12}% 
-\contentsline {section}{\numberline {2.3}Applications to Physics and Engineering}{13}% 
-\contentsline {subsection}{\numberline {2.3.1}Hydrostatic Force}{13}% 
-\contentsline {subsection}{\numberline {2.3.2}Center of Mass}{13}% 
-\contentsline {subsection}{\numberline {2.3.3}Rotating cross sections around line}{13}% 
-\contentsline {chapter}{\numberline {3}Parametric Equations and Polar Coordinates}{14}% 
-\contentsline {section}{\numberline {3.1}Parametric Equations}{14}% 
-\contentsline {subsection}{\numberline {3.1.1}Tangents}{14}% 
-\contentsline {subsection}{\numberline {3.1.2}Integrals}{14}% 
-\contentsline {subsubsection}{Normal Integral: Area from $\alpha \to \beta $}{14}% 
-\contentsline {subsubsection}{Arc Length}{14}% 
-\contentsline {subsubsection}{Surface Area of Revolution: }{14}% 
-\contentsline {section}{\numberline {3.2}Polar Coordinates}{15}% 
-\contentsline {subsection}{\numberline {3.2.1}Quick Info: }{15}% 
-\contentsline {subsection}{\numberline {3.2.2}Symmetry}{15}% 
-\contentsline {subsection}{\numberline {3.2.3}Tangents to Polar Curves}{15}% 
-\contentsline {section}{\numberline {3.3}Areas and Lengths in Polar Coordinates}{15}% 
-\contentsline {subsection}{\numberline {3.3.1}Area}{15}% 
-\contentsline {paragraph}{Area of a Sector of a Circle}{15}% 
-\contentsline {paragraph}{Area Inside Curve: }{15}% 
-\contentsline {subsection}{\numberline {3.3.2}Arc Length}{16}% 
-\contentsline {subsubsection}{Review of Parametric Arc Length}{16}% 
-\contentsline {chapter}{\numberline {4}Infinite Sequences and Series}{17}% 
-\contentsline {section}{\numberline {4.1}Sequences}{17}% 
-\contentsline {paragraph}{Definition: }{17}% 
-\contentsline {subsection}{\numberline {4.1.1}Limits of Sequences}{17}% 
-\contentsline {paragraph}{A sequence has a limit $L$ if: }{17}% 
-\contentsline {subsection}{\numberline {4.1.2}Definitions}{17}% 
-\contentsline {paragraph}{Monotonic sequences}{17}% 
-\contentsline {paragraph}{Bounded above}{17}% 
-\contentsline {paragraph}{Monotonic Sequence Theorem: }{17}% 
-\contentsline {section}{\numberline {4.2}Series}{18}% 
-\contentsline {paragraph}{A series is: }{18}% 
-\contentsline {subsection}{\numberline {4.2.1}Partial Sums}{18}% 
-\contentsline {subsection}{\numberline {4.2.2}Infinite Series}{18}% 
-\contentsline {subsection}{\numberline {4.2.3}Geometric Series}{18}% 
-\contentsline {subsection}{\numberline {4.2.4}Test for Divergence}{18}% 
-\contentsline {subsection}{\numberline {4.2.5}Working with Series}{18}% 
-\contentsline {subsection}{\numberline {4.2.6}Comparison Test}{18}% 
-\contentsline {subsection}{\numberline {4.2.7}P-Series}{19}% 
-\contentsline {section}{\numberline {4.3}The Integral Test and Estimates of Sums}{19}% 
-\contentsline {subsection}{\numberline {4.3.1}Integral Test}{19}% 
-\contentsline {subsection}{\numberline {4.3.2}Estimating The Sum of a Series}{19}% 
-\contentsline {paragraph}{Remainder Estimate for the Integral Test}{19}% 
-\contentsline {section}{\numberline {4.4}Comparison Tests}{20}% 
-\contentsline {subsection}{\numberline {4.4.1}The Limit Comparison Test}{20}% 
+\contentsline {section}{\numberline {0.1}Review: Memorizy Stuff}{2}% 
+\contentsline {subsection}{\numberline {0.1.1}Trig Function Derivatives}{2}% 
+\contentsline {subsection}{\numberline {0.1.2}Inverse Trig Derivatives}{2}% 
+\contentsline {subsection}{\numberline {0.1.3}How to complete the Square}{2}% 
+\contentsline {subsection}{\numberline {0.1.4}Trig Angle Sums}{2}% 
+\contentsline {subsection}{\numberline {0.1.5}Hyperbolic Trig Functions}{3}% 
+\contentsline {subsection}{\numberline {0.1.6}Inverse Hyperbolic Trig Function}{3}% 
+\contentsline {section}{\numberline {0.2}Introduction and Course Description}{3}% 
+\contentsline {chapter}{\numberline {1}Techniques of Integration (Chapter 7 in Textbook)}{4}% 
+\contentsline {section}{\numberline {1.1}Integration by Parts}{4}% 
+\contentsline {subsection}{\numberline {1.1.1}Tips for Integration by Parts:}{5}% 
+\contentsline {section}{\numberline {1.2}Trigonometric Integrals}{5}% 
+\contentsline {subsection}{\numberline {1.2.1}Strategy for $\DOTSI \intop \ilimits@ sin^m (x)cos^n (x)$}{5}% 
+\contentsline {paragraph}{If the power of cosine is odd:}{5}% 
+\contentsline {paragraph}{If the power of sine is odd:}{5}% 
+\contentsline {paragraph}{If both powers are even:}{6}% 
+\contentsline {subsection}{\numberline {1.2.2}Strategy for $\DOTSI \intop \ilimits@ tan^m (x)sec^n (x)$}{6}% 
+\contentsline {paragraph}{If the power of $sec(x)$ is even,}{6}% 
+\contentsline {paragraph}{If the power of tangent is odd,}{6}% 
+\contentsline {paragraph}{Also note the following:}{6}% 
+\contentsline {paragraph}{Remember this as well:}{6}% 
+\contentsline {subsection}{\numberline {1.2.3}Strategy for $\DOTSI \intop \ilimits@ sin(mx)cos(nx) dx$}{6}% 
+\contentsline {subsection}{\numberline {1.2.4}Strategy for $\DOTSI \intop \ilimits@ csc^m (x)cot^n (x) dx$}{7}% 
+\contentsline {section}{\numberline {1.3}Trig Sub}{7}% 
+\contentsline {paragraph}{What is trig sub?}{7}% 
+\contentsline {subsection}{\numberline {1.3.1}Inverse Substitution}{7}% 
+\contentsline {paragraph}{Qualificiations:}{7}% 
+\contentsline {subsection}{\numberline {1.3.2}List of Trig Subs}{7}% 
+\contentsline {subsection}{\numberline {1.3.3}General Layout for Trig Sub}{8}% 
+\contentsline {section}{\numberline {1.4}Partial Fractions}{8}% 
+\contentsline {subsection}{\numberline {1.4.1}Denominator is only distinct Linear Factors}{8}% 
+\contentsline {subsection}{\numberline {1.4.2}Denominator is only Linear Factors but some are Repeated}{8}% 
+\contentsline {subsection}{\numberline {1.4.3}Denominator has non-repeated Quadratic Factors}{9}% 
+\contentsline {paragraph}{Also, }{9}% 
+\contentsline {subsection}{\numberline {1.4.4}Denominator has repeated Quadratic Factors}{9}% 
+\contentsline {subsection}{\numberline {1.4.5}Rationalizing Substitutions}{9}% 
+\contentsline {section}{\numberline {1.5}Strategy for Solving Integrals}{9}% 
+\contentsline {section}{\numberline {1.6}Improper Integrals (Involving Infinity)}{10}% 
+\contentsline {subsection}{\numberline {1.6.1}Definition of Improper Integral}{10}% 
+\contentsline {paragraph}{For $\DOTSI \intop \ilimits@ _1^{\infty } \frac {1}{x^p} dx$}{10}% 
+\contentsline {paragraph}{For integrals where the y value goes to infinity}{10}% 
+\contentsline {subsection}{\numberline {1.6.2}Comparison Theorem}{10}% 
+\contentsline {chapter}{\numberline {2}Further Applications of Integration}{11}% 
+\contentsline {section}{\numberline {2.1}Arc Length}{11}% 
+\contentsline {subsection}{\numberline {2.1.1}Definition of Arc Length}{11}% 
+\contentsline {subsection}{\numberline {2.1.2}Arc Length Formula}{11}% 
+\contentsline {section}{\numberline {2.2}Surface Area of Revolution}{11}% 
+\contentsline {subsection}{\numberline {2.2.1}Surface Area of Revolution Formulae}{11}% 
+\contentsline {section}{\numberline {2.3}Applications to Physics and Engineering}{12}% 
+\contentsline {subsection}{\numberline {2.3.1}Hydrostatic Force}{12}% 
+\contentsline {subsection}{\numberline {2.3.2}Center of Mass}{12}% 
+\contentsline {subsection}{\numberline {2.3.3}Rotating cross sections around line}{12}% 
+\contentsline {chapter}{\numberline {3}Parametric Equations and Polar Coordinates}{13}% 
+\contentsline {section}{\numberline {3.1}Parametric Equations}{13}% 
+\contentsline {subsection}{\numberline {3.1.1}Tangents}{13}% 
+\contentsline {subsection}{\numberline {3.1.2}Integrals}{13}% 
+\contentsline {subsubsection}{Normal Integral: Area from $\alpha \to \beta $}{13}% 
+\contentsline {subsubsection}{Arc Length}{13}% 
+\contentsline {subsubsection}{Surface Area of Revolution: }{13}% 
+\contentsline {section}{\numberline {3.2}Polar Coordinates}{14}% 
+\contentsline {subsection}{\numberline {3.2.1}Quick Info: }{14}% 
+\contentsline {subsection}{\numberline {3.2.2}Symmetry}{14}% 
+\contentsline {subsection}{\numberline {3.2.3}Tangents to Polar Curves}{14}% 
+\contentsline {section}{\numberline {3.3}Areas and Lengths in Polar Coordinates}{14}% 
+\contentsline {subsection}{\numberline {3.3.1}Area}{14}% 
+\contentsline {paragraph}{Area of a Sector of a Circle}{14}% 
+\contentsline {paragraph}{Area Inside Curve: }{14}% 
+\contentsline {subsection}{\numberline {3.3.2}Arc Length}{15}% 
+\contentsline {subsubsection}{Review of Parametric Arc Length}{15}% 
+\contentsline {chapter}{\numberline {4}Infinite Sequences and Series}{16}% 
+\contentsline {section}{\numberline {4.1}Sequences}{16}% 
+\contentsline {paragraph}{Definition: }{16}% 
+\contentsline {subsection}{\numberline {4.1.1}Limits of Sequences}{16}% 
+\contentsline {paragraph}{A sequence has a limit $L$ if: }{16}% 
+\contentsline {subsection}{\numberline {4.1.2}Definitions}{16}% 
+\contentsline {paragraph}{Monotonic sequences}{16}% 
+\contentsline {paragraph}{Bounded above}{16}% 
+\contentsline {paragraph}{Monotonic Sequence Theorem: }{16}% 
+\contentsline {section}{\numberline {4.2}Series}{17}% 
+\contentsline {paragraph}{A series is: }{17}% 
+\contentsline {subsection}{\numberline {4.2.1}Partial Sums}{17}% 
+\contentsline {subsection}{\numberline {4.2.2}Infinite Series}{17}% 
+\contentsline {subsection}{\numberline {4.2.3}Geometric Series}{17}% 
+\contentsline {subsection}{\numberline {4.2.4}Test for Divergence}{17}% 
+\contentsline {subsection}{\numberline {4.2.5}Working with Series}{17}% 
+\contentsline {subsection}{\numberline {4.2.6}Comparison Test}{17}% 
+\contentsline {subsection}{\numberline {4.2.7}P-Series}{18}% 
+\contentsline {section}{\numberline {4.3}The Integral Test and Estimates of Sums}{18}% 
+\contentsline {subsection}{\numberline {4.3.1}Integral Test}{18}% 
+\contentsline {subsection}{\numberline {4.3.2}Estimating The Sum of a Series}{18}% 
+\contentsline {paragraph}{Remainder Estimate for the Integral Test}{18}% 
+\contentsline {section}{\numberline {4.4}Comparison Tests}{19}% 
+\contentsline {subsection}{\numberline {4.4.1}The Limit Comparison Test}{19}% 
+\contentsline {section}{\numberline {4.5}Alternating Series}{19}% 
+\contentsline {subsection}{\numberline {4.5.1}Alternating Series Test}{19}% 
+\contentsline {paragraph}{If }{19}% 
+\contentsline {paragraph}{Fun fact: }{19}% 
+\contentsline {subsection}{\numberline {4.5.2}Estimating Sums for Alternating Series}{19}% 
+\contentsline {paragraph}{Alternating Series Estimation Theorem: }{19}% 
+\contentsline {section}{\numberline {4.6}Absolute Convergence and Ratio and Roots Test}{19}% 
+\contentsline {subsection}{\numberline {4.6.1}Absolute Convergence}{19}% 
+\contentsline {paragraph}{Definition: }{19}% 
+\contentsline {paragraph}{Conditional Convergence: }{20}% 
+\contentsline {subsection}{\numberline {4.6.2}Ratio Test}{20}% 
+\contentsline {subsection}{\numberline {4.6.3}Rearrangements}{20}% 
+\contentsline {section}{\numberline {4.7}Strategy for Series: }{20}% 
+\contentsline {section}{\numberline {4.8}Power Series}{21}% 
