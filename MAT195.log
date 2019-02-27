@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  26 FEB 2019 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  27 FEB 2019 15:27
 entering extended mode
 **./MAT195.tex
 (MAT195.tex
@@ -360,7 +360,13 @@ Overfull \hbox (21.33157pt too wide) in paragraph at lines 383--384
 ent 
  []
 
-[20] [21] (MAT195.aux) ) 
+[20]
+Overfull \hbox (34.91402pt too wide) in paragraph at lines 435--435
+ \OT1/cmr/bx/n/12 General Strategy for Representing as Power Series: [] \OT1/cm
+r/m/n/12 Integrate/differentiate
+ []
+
+[21] (MAT195.aux) ) 
 Here is how much of TeX's memory you used:
  2718 strings out of 494866
  41885 string characters out of 3176398
@@ -369,27 +375,27 @@ Here is how much of TeX's memory you used:
  13525 words of font info for 52 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  55i,8n,30p,320b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
-</Users/abhargava/Library/Application Support/MiKTeX/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/abhargava/Librar
-y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex
-10.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></Users/abhargava/Library/Application Sup
-port/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/ab
-hargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs
-/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/abhargava/Library/App
-lication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmr17.pfb></Users/abhargava/Library/Application Support/Mi
-KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/abhargava/L
-ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></Users/abhargava/Library/Application 
-Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/
-abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmti12.pfb></Users/abhargava/Library/Application Support/MiKTeX/tex
-mfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MAT195.pdf (22 pages, 192100 bytes).
+</Users/abhargava/Library/Application Support/MiKTeX/texmfs/
+install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/abhargava/Library/App
+lication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></Users/abhargava/Library/Application Support/
+MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/abharga
+va/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/abhargava/Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Us
+ers/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb></Users/abhargava/Library/Application Support/MiKTeX/
+texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/abhargava/Librar
+y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></Users/abhargava/Library/Application Suppo
+rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/abhar
+gava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on MAT195.pdf (22 pages, 194035 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
