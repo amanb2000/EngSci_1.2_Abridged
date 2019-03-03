@@ -435,7 +435,37 @@ You can take derivative/integral for x values that \textbf{don't} cause it to di
 Integrate/differentiate until it's in a similar form to $$\frac{1}{1-x}$$
 Then convert to power series then integrate/differentiate back.
 
+\section{Taylor and McLauren Series}
+\subsection{Taylor Series}
+\paragraph{If $f$ has a power series representation, } then:
+$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)} (a)}{n!} (x-a)^n$$
 
+Mclauren Series is just a Taylor Series centered at 0.
+
+\subsection{Finding the Radius of Convergence for Taylor Series}
+Let $a_n$ be whatever is inside the summation of the Taylor Series. Use $$L = |\frac{a_{n+1}}{a_n}|$$ and the ratio test to see what values of x are necessary for it to converge (L < 1 to converge).
+
+\subsection{Taylor's Inequality}
+\paragraph{Pre-Inequality Theorem: } If $f(x) = T_n(x) + R_n(x)$ and $T_n(x)$ is the nth-degree Taylor polynomial and $R_n(x)$ is the remainder of the polynomial, then $\lim_{n \to \infty} R_n(x) = 0$ (pretty obvious, huh?)
+
+\paragraph{Taylor's Inequality (for real now)}
+If $|f^{(n+1)}(x)| 	\leq M$ for all $|x-a| \leq d$ then $R_n(x)$ is follows:
+$$|R_n(x)| \leq \frac{M}{(n+1)!} |x-a|^{n+1}$$ for all $|x-a| \leq d$
+
+\paragraph{Useful facts and figures}
+$$lim_{n \to \infty} \frac{x^n}{n!} = 0$$
+(for every x)
+
+
+$$e = \sum_{n = 0}^{\infty} \frac{1}{n!}$$
+
+$$sin(x) = \sum_{n=0}^{\infty}(-1)^n \frac{x^{2n+1}}{(2n+1)!}$$
+$$cos(x) = \sum_{n=0}^{\infty}(-1)^n \frac{x^{2n}}{(2n)!}$$
+
+\subsection{Manipulations of Power Series}
+Divide power series by long division informally...
+
+...
 
 
 
