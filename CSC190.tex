@@ -259,7 +259,16 @@ You have to search everything. But you can stop if you reach something larger (i
 \chapter{Graphs}
 \paragraph{What's a graph? } Bunch of nodes with connections (verticies and edge). Each connection/edge can have a weight. Connections/edges can either be directional or non-directional. The path length between two is the sum of the weights of the edges that you traverse to get there. 
 
+$$G = (V, E)$$
+Graph is made of a set of verticies ($V$) connected by set of edges ($E$).
+
 \paragraph{What about notation? } $E_{a \to b}$ connects a to b. If it's non-directional, then $E_{b \to a}$ is therefore valid and existent. However, if it is a directional edge, then it does not necessary exist.
+
+\section{Types of Graphs}
+\begin{enumerate}
+\item Weighted and unweighted graphs (verticies can have weight)
+\item Directed vs. undirected graphs
+\end{enumerate}
 
 \section{Paths}
 A set of connected edges and nodes that leads from one node to another.
@@ -271,7 +280,7 @@ A path that leads back to where it started without using any edges twice. Must u
 If $A \to B$ in a non-directional way, it is a strong connection. However, if $A \to B$ is directional, it is considerred weak. Also, if it is indirectly connected, it doesn't affect the strength of the connection.
 
 \section{Articulation Vertex}
-A vertex that, if removed, will change the connectivity of other verticies. 
+A vertex that, if removed, will change the connectivity of other verticies.
 
 \section{Traversal of Graphs}
 
