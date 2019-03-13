@@ -468,6 +468,31 @@ Divide power series by long division informally...
 ...
 
 
+\section{Fourier Series}
+\paragraph{Form of Fourier Series: }
+$$f(x) = a_0 + \sum_{n=1}^{\infty} (a_n cos(nx) + b_n sin(nx))$$
+for $-\pi \leq x \leq \pi$
 
+\paragraph{Finding Coefficients: }
+$$a_0 = \frac{1}{2\pi} \int_{-\pi}{\pi} f(x) dx$$
+
+$$a_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) cos(nx) dx$$
+
+$$b_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) cos(nx) dx$$
+
+\subsection{Fourier Convergence Theorem}
+Here are the prerequisites for the Fourier series to converge:
+\begin{enumerate}
+\item $f$ is periodic with period of $2\pi$
+\item $f$ and $f'$ are piecewise continuous on $[-\pi, \pi]$
+\item Fourier series at x = $f(x)$ where $f(x)$ is continous. Otherwise, it is the mean of the two points.
+\end{enumerate}
+
+\subsection{Fourier Series for $T \neq \pi$}
+Let period be $2L$
+$$f(x) = a_0 + \sum_{n=1}^{\infty} [a_n cos(\frac{n\pi x}{L} + b_n sin(\frac{n\pi x}{L}]$$
+$$a_0 = \frac{1}{2L} \int_{-L}^{L} f(x) dx$$
+$$a_n = \frac{1}{L}\int_{-L}^{L} f(x) cos(\frac{n\pi x}{L}) dx$$
+$$b_n = \frac{1}{L}\int_{-L}^{L} f(x) sin(\frac{n\pi x}{L}) dx$$
 
 \end{document}

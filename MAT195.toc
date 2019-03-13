@@ -119,3 +119,8 @@
 \contentsline {paragraph}{Taylor's Inequality (for real now)}{24}% 
 \contentsline {paragraph}{Useful facts and figures}{24}% 
 \contentsline {subsection}{\numberline {4.10.4}Manipulations of Power Series}{25}% 
+\contentsline {section}{\numberline {4.11}Fourier Series}{25}% 
+\contentsline {paragraph}{Form of Fourier Series: }{25}% 
+\contentsline {paragraph}{Finding Coefficients: }{25}% 
+\contentsline {subsection}{\numberline {4.11.1}Fourier Convergence Theorem}{25}% 
+\contentsline {subsection}{\numberline {4.11.2}Fourier Series for $T \not =\pi $}{26}% 
