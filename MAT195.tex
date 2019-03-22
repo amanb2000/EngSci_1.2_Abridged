@@ -495,4 +495,47 @@ $$a_0 = \frac{1}{2L} \int_{-L}^{L} f(x) dx$$
 $$a_n = \frac{1}{L}\int_{-L}^{L} f(x) cos(\frac{n\pi x}{L}) dx$$
 $$b_n = \frac{1}{L}\int_{-L}^{L} f(x) sin(\frac{n\pi x}{L}) dx$$
 
+\chapter{Vectors and Space}
+\section{Cylinders and Quadratic Surfaces}
+\paragraph{Cylinder definition: } Surface of all lines that are paralell to a given line and pass through a given plane (e.g. $z = x^2$)
+
+\paragraph{Quadratic Surface definition: } Second-degree equation with three variables (usually $x, y, z$). General form is:
+$$Ax^2 + By^2 + Cz^2 + Dxy + Eyz + Fzx + Gx + Hy + Iz + J = 0 $$
+However, by translation and rotation, standard form becomes:
+$$Ax^2 + By^2 + Cz^2 + D = 0$$
+
+Types of Quadratic Surfaces:
+\begin{enumerate}
+\item Ellipsoid: $x^2/a^2 + y^2/b^2 + z^2/c^2 = 1$ 
+\item Elliptic Paraboloid: $z/c = x^2/a^2 + y^2/b^2$, looks like upward 3d hyperbolic cup. Horizontal traces = ellipses, vertical traces = parabolas. 
+\item Hyperbolic Parabaloid: $z/c = x^2/a^2 - y^2/b^2$, horizontal traces are hyperbolas, vertical = parabolas. 
+\item Cones: $z^2/c^2 = x^2/a^2 + y^2/b^2$, Horizontal traces = ellipses, vertical traces are hyperbolas unless at 0, where it is an x.
+\item Hyperboloid of One Sheet: $x^2/a^2 + y^2/b^2 - z^2/c^2 = 1$, horizontal = ellipses, vertical = hyperbolas, axis of symmetry is the variable that is negative. 
+\item Hyperboloid of Two Sheets: $-x^2/a^2 - y^2/b^2 + z^2/c^2 = 1$, horizontal = ellipses, vertical = hyperbolas, two negatives indicates two sheets.
+\end{enumerate}
+
+\chapter{Vector Functions}
+\section{Vector Functions and Space Curves}
+Vector function is one where the domain is the set of real numbers and the range is $R^n$
+
+\paragraph{Limits of Vector Functions: } Just take the limit of each of the internal functions.
+
+\paragraph{Space Curve: } You give $x(t), y(t), $and$ z(t)$ 
+
+\paragraph{Vector equation for joining two points: } $$r(t) = (1-t)r_0 + tr_1$$
+
+\section{Derivatives and Integrals of Vector Functions}
+If $r(t) = [f(t), g(t), h(t)]$ then $r'(t) = [f'(t), g'(t), h'(t)]$
+
+All derivative rules still apply, and product rule applies to dot and cross product!
+
+\section{Basic Vector Operation Definitions}
+\paragraph{Dot Product: } $$x * y = x_1y_1+x_2y_2+ ... + x_ny_n$$
+$$x * y = |x|*|y|*cos(\theta)$$
+\paragraph{Cross Product: } $$x \x y = |x|*|y|*sin(\theta) * n$$ where n is a vector normal to the plane formed by x and y.
+
+\subsection{Integrals of Vector Functions}
+Just integrate each component of the function.
+
+
 \end{document}
