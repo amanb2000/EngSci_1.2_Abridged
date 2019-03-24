@@ -270,20 +270,40 @@ Graph is made of a set of verticies ($V$) connected by set of edges ($E$).
 \item Directed vs. undirected graphs
 \end{enumerate}
 
-\section{Paths}
+\subsection{Paths}
 A set of connected edges and nodes that leads from one node to another.
 
-\section{Cycles}
+\subsection{Cycles}
 A path that leads back to where it started without using any edges twice. Must use an edge.
 
-\section{Strength of Connections}
+\subsection{Strength of Connections}
 If $A \to B$ in a non-directional way, it is a strong connection. However, if $A \to B$ is directional, it is considerred weak. Also, if it is indirectly connected, it doesn't affect the strength of the connection.
 
-\section{Articulation Vertex}
+\subsection{Articulation Vertex}
 A vertex that, if removed, will change the connectivity of other verticies.
 
-\section{Traversal of Graphs}
+\section{Traversal of Graph: Prim's Algorithm}
+\paragraph{What it does: } finds a minimum spanning tree. It's a greedy algorithm (i.e. it takes the locally optimal path at each point). It always converges to an optimal solution, but that's rare for greedy algorithms. 
 
-\section{Pathfinding of Graphs}
+\paragraph{Steps in Prim's Algorithm: }
+\begin{enumerate}
+\item Start with a vertex chosen at random.
+\item Choose the minimally-weighted edge that's connected to that (set of) vertex.
+\item Add the vertex connected by that minimally-weighted edge to the minimum spanning tree.
+\item Now repeat steps 2-3 with the new set of vertices until you get the minimum spanning tree.
+\end{enumerate}
+
+\paragraph{Topological Ordering in a Graph}
+All about finding an "order" to a graph (e.g. pre-requisite courses represented with directed edges).
+
+You can only find topological ordering for some graphs. They must be \textbf{directed} and \textbf{acyclic} (i.e. \textbf{DAG} graphs).
+
+\paragraph{For the courses example:}
+\begin{itemize}
+\item If you don't need any pre-requisite (i.e. no traversal from start is needed), it has \textit{in-degree} of 0.
+\end{itemize}
+
+
+
 
 \end{document}
