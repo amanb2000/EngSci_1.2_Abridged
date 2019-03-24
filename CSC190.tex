@@ -3,7 +3,7 @@
 \usepackage{graphicx}
 \usepackage{subfig}
 \usepackage{listings}
-\usepackage{movie15}
+\usepackage{media9}
 \usepackage{hyperref}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
@@ -303,7 +303,102 @@ You can only find topological ordering for some graphs. They must be \textbf{dir
 \item If you don't need any pre-requisite (i.e. no traversal from start is needed), it has \textit{in-degree} of 0.
 \end{itemize}
 
+\section{Representations of Graphs: Adjacency Matrices}
+\begin{itemize}
+\item $n \times n$ matrix
+\item If $A+{ij}$ is non-zero value $a$ then vertex $i$ is connected to $j$ with weight $a$
+\end{itemize}
 
+\chapter{Bit Manipulation}
+Have you ever wanted to be a cool computer person who does things with ones and zero's instead of actual letters and numbers like a normal person? If so, this is the right chapter for you!
 
+\section{Converting to and from Different Bases}
+Base 10, 2, and 16 are most commonly used. Base 16 is just a way to read base 2 in a more efficient manner. In order to work with bits it's pretty important to know how to convert back and forth because the test is all on paper. 
+
+\subsection{Converting from base 10 $\to$ base 2}
+You keep dividing by two, keeping track of the remainder. Eventually the number you will be trying to divide by two will be 1. You keep going until it's zero + remainder(1). Then you read the reaminders upward from that final 1.
+
+\subsection{Converting from base 2 $\to$ base 16}
+Any hex number can be expressed as 4 binary digits. Make a correspondence table between quadruplets of binary numbers and hex (1-f, inclusive). To convert to base 16 subdivide from right to left in groups of four binary digits. Pad the leftmost part with leading zeros and convert using the table. 
+
+\subsection{Converting from base 10 $\to$ base 16 (and vice versa)}
+Just go through base 2 fam.
+
+\section{Bitwise Operators}
+\subsection{How to print bits of a variable}
+\begin{itemize}
+\item printf("\%x\textbackslash n", var1);
+\item You usually use unsigned ints and unsigned chars.
+\item Unsigned chars are 8 bits (two hex characters, 1 byte). 
+\item Unsigned ints are 32 bits (8 hex characters, 4 bytes).  
+\item Each hex character represents half a byte.
+\item When you print out a low-valued int, it won't necessarily show all 8 hex characters (it eliminates leading zeros).
+\end{itemize}
+
+\subsection{Altering Bits}
+\begin{enumerate}
+\item \& - And operator; Only outputs 1 when both inputs at that bit are 1.
+\item $|$ - Or operator; Outputs 1 if at least one of the inputs at that bit are 1. 
+\item $\hat{}$ - Exclusive or operator (xor); Outputs one if only one fo the inputs is 1. 
+\item \textasciitilde - Not operator; flips the bits (e.g. ~a = opposite of a)
+\item $<<$ - shift left operator; shifts all bits left, padding the right in with zeros (e.g. c = a << 2;)
+\item $>>$ - shift right operator; shifts all bits right, padding left with zeros (e.g. c = a >> 2;)
+\end{enumerate}
+
+\chapter{Sorting and Searching Algorithms}
+Sorting is pretty darn important. You can probably reason out why that is. Here are some of the major sorting algorithms, and below is a table summarizing the time complexity of these algorithms: 
+
+\begin{tabular}{l|l|l|l}
+\textbf{Algorithm} & \textbf{Time Complexity} \\
+\hline
+\textit{} & \textit{Best} & \textit{Average} & \textit{Worst} \\
+\hline
+Selection Sort & $\Omega(n^2)$ & $\Theta(n^2)$ & $O(n^2)$ \\
+Insertion Sort & $\Omega(n)$ & $\Theta(n^2)$ & $O(n^2)$ \\
+Bubble Sort & $\Omega(n)$ & $\Theta(n^2)$ & $O(n^2)$ \\
+Heap Sort & $\Omega(nlog(n))$ & $\Theta(nlog(n))$ & $O(nlog(n))$ \\
+Merge Sort & $\Omega(nlog(n))$ & $\Theta(nlog(n))$ & $O(nlog(n))$ \\
+Quick Sort & $\Omega(nlog(n))$ & $\Theta(nlog(n))$ & $O(n^2)$ \\
+Radix Sort & $\Omega(nk)$ & $\Theta(nk)$ & $O(nk)$ \\
+\hline
+\end{tabular}
+
+\section{Selection Sort}
+\begin{enumerate}
+\item Define start of array as $s = 0$ and $e = len(array)$
+\item Find minimum element in array $s \to e$ and swap it with the element at $s$
+\item Add 1 to s and repeat step 2 until $s = e$.
+\end{enumerate}
+\section{Insertion Sort}
+\begin{enumerate}
+\item The "sorted" partition of the array starts with one element.
+\item You then take the next element after the "sorted" partition and insert it into the sorted partition in order.
+\item Repeat until the sorted partition is the size of the array.
+\end{enumerate}
+
+\section{Bubble Sort}
+\begin{enumerate}
+\item Go through element 0 to element len(array)-1. If the element is not in order with the element in front of it, switch them.
+\item Keep doing this until swapping is no longer necessary.
+\end{enumerate}
+
+\section{Heap Sort}
+\begin{enumerate}
+\item Make a heap out of the array
+\item Keep popping the max/min element from the heap and re-heapifying until the heap is empty.
+\item You now have a sorted list.
+\end{enumerate}
+
+\section{Merge Sort}
+\begin{enumerate}
+\item Have a function called merge that 'zips' two sorted lists together into one big sorted list (pretty simple if you think about it)
+\item Unless the given partition is of length 2 or 1, keep calling the mergesort function on each half of the given partition.
+\item If the partition is of length 2, swap them if they're out of order. Otherwise, return the partition.
+\item If the partition is of length 1, return the partition.
+\item Zip up the two return values from the recursive call of the mergesort algorithm.
+\end{enumerate}
+
+\section{Quick Sort}
+\section{Radix Sort}
 
 \end{document}
