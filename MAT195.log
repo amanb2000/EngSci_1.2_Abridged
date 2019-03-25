@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  24 MAR 2019 02:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  25 MAR 2019 02:20
 entering extended mode
 **./MAT195.tex
 (MAT195.tex
@@ -270,13 +270,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/Users/abhargava/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/
-pdftex.map}] (MAT195.toc)
+pdftex.map}] (MAT195.toc
+Overfull \hbox (5.3751pt too wide) in paragraph at lines 32--32
+ [][] []\OT1/cmr/m/n/12 Denominator is only Linear Factors but some are Repeate
+d []  
+ []
+
+[1
+
+] [2])
 \tf@toc=\write3
 \openout3 = `MAT195.toc'.
 
- [1
-
-] [2] [3]
+ [3] [4] [5]
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
@@ -293,7 +299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-[4
+[6
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 73.
@@ -304,44 +310,44 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
- [5] [6]
+ [7] [8]
 Overfull \hbox (0.87999pt too wide) in paragraph at lines 123--123
 \OT1/cmr/m/n/12 Unlike u-substitution, you are substituting in a non-equivalent
  function ($\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/1
 2 )$)
  []
 
-[7]
+[9]
 Overfull \hbox (4.72955pt too wide) in paragraph at lines 170--170
 []\OT1/cmr/bx/n/14.4 Denominator has non-repeated Quadratic Factors 
  []
 
-[8]
+[10]
 Overfull \hbox (41.97488pt too wide) in paragraph at lines 190--191
 []\OT1/cmr/m/n/12 Integration by parts - especially with $\OML/cmm/m/it/12 poly
 nomial \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 transcendentalfunction$ 
  []
 
-[9] [10]
+[11] [12]
 Chapter 2.
-[11
-
-] [12]
-Chapter 3.
 [13
 
-] [14] [15]
-Chapter 4.
-[16
+] [14]
+Chapter 3.
+[15
 
-] [17]
+] [16] [17]
+Chapter 4.
+[18
+
+] [19]
 Overfull \hbox (5.84465pt too wide) in paragraph at lines 340--341
 \OT1/cmr/m/n/12 It's not easy to find the sum of series except for geometric se
 ries and $[] 1\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n\OT1/cmr/m/n
 /12 (1 +
  []
 
-[18]
+[20]
 Overfull \hbox (17.2658pt too wide) in paragraph at lines 375--375
 []\OT1/cmr/bx/n/17.28 Absolute Convergence and Ratio and Roots
  []
@@ -352,7 +358,7 @@ Overfull \hbox (12.04326pt too wide) in paragraph at lines 379--380
 convergent, but not absolutely
  []
 
-[19]
+[21]
 Overfull \hbox (21.33157pt too wide) in paragraph at lines 383--384
 []\OT1/cmr/m/n/12 if $\OML/cmm/m/it/12 lim[]\OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 (
 \OML/cmm/m/it/12 a[]=a[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 L
@@ -360,13 +366,13 @@ Overfull \hbox (21.33157pt too wide) in paragraph at lines 383--384
 ent 
  []
 
-[20]
+[22]
 Overfull \hbox (34.91402pt too wide) in paragraph at lines 435--435
  \OT1/cmr/bx/n/12 General Strategy for Representing as Power Series: [] \OT1/cm
 r/m/n/12 Integrate/differentiate
  []
 
-[21] [22] [23] [24]
+[23] [24] [25] [26]
 Chapter 5.
 
 Overfull \hbox (15.25035pt too wide) in paragraph at lines 502--503
@@ -381,7 +387,7 @@ Overfull \hbox (3.62616pt too wide) in paragraph at lines 510--511
 n/12 , looks like upward 3d hyperbolic
  []
 
-[25
+[27
 
 ]
 Chapter 6.
@@ -390,18 +396,18 @@ Overfull \hbox (29.4338pt too wide) in paragraph at lines 527--527
 []\OT1/cmr/bx/n/17.28 Derivatives and Integrals of Vector Functions 
  []
 
-[26
+[28
 
 ]
 Overfull \hbox (41.95778pt too wide) in paragraph at lines 540--540
 []\OT1/cmr/bx/n/17.28 Arc Length and Curvature of Vector Functions 
  []
 
-[27] (MAT195.aux) ) 
+[29] (MAT195.aux) ) 
 Here is how much of TeX's memory you used:
  2718 strings out of 494866
  41885 string characters out of 3176398
- 105345 words of memory out of 3000000
+ 108345 words of memory out of 3000000
  6330 multiletter control sequences out of 15000+200000
  13525 words of font info for 52 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -426,9 +432,9 @@ rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/abhar
 gava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfo
 nts/cm/cmti12.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/i
 nstall/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MAT195.pdf (28 pages, 208506 bytes).
+Output written on MAT195.pdf (30 pages, 213839 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
