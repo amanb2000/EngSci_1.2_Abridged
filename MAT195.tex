@@ -583,9 +583,28 @@ This section actually has some stuff that isn't entirely obvious about normal ve
 \paragraph{Functions of 3 or more variables } are pretty easy to extrapolate from functions of two variables, tbh.
 
 \section{Limits and Continuity with Functions of Several Variables}
+\subsection{Limits}
 \paragraph{Definition of limit } with many variables:
 $$\lim_{(x, y) \to (a, b)} f(x, y) = L$$
 if for every number $\epsilon > 0$ there is a corresponding number $\delta > 0$ s.t.
 if $0 < \sqrt{(x-a)^2 + (y-b)^2} < \delta$ then $|f(x, y) - L | < \epsilon$
 
+\paragraph{How to disprove that a limit exists: }
+
+If $f(x, y) \to L_1$ on one path (e.g. keeping x the same and varying y) while $f(x, y) \to L_2$ from another path and $L_1 \neq L_2$ then limit DNE.
+
+\paragraph{Squeeze theorem } still holds in n-dimensional space. 
+
+\subsection{Continuity}
+Remember how finding limits of continuous functions is super easy because $\lim_{x\to a} f(x) = f(a)$ if $f(x)$ is continuous? Well that still holds.
+
+\paragraph{Definition of continuity: }
+
+$f(x, y)$ is continuous if $\lim_{(x, y) \to (a, b)} f(x, y) = f(a, b)$ for all $(a, b)$ in $D$ ($D$ is domain)
+
+\paragraph{Polynomials and rationals with more than 1 variable: }
+
+Polynomials with two variables are the sum of $cx^my^n$ where $c$ is constant and $m$ and $n$ are non-negative integers.
+
+All polynomials of two variables are continuous. 
 \end{document}
