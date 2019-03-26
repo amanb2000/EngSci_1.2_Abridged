@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt]{report}
 
 \usepackage{amsmath,amsfonts,mathtools}
+\usepackage{hyperref}
 
 \begin{document}
 \title{MAT195 TextBook Notes}
@@ -524,7 +525,7 @@ Vector function is one where the domain is the set of real numbers and the range
 
 \paragraph{Vector equation for joining two points: } $$r(t) = (1-t)r_0 + tr_1$$
 
-\section{Derivatives and Integrals of Vector Functions}
+\section{Derivatives, Integrals of Vector Functions}
 If $r(t) = [f(t), g(t), h(t)]$ then $r'(t) = [f'(t), g'(t), h'(t)]$
 
 All derivative rules still apply, and product rule applies to dot and cross product!
@@ -537,7 +538,7 @@ $$x * y = |x|*|y|*cos(\theta)$$
 \subsection{Integrals of Vector Functions}
 Just integrate each component of the function.
 
-\section{Arc Length and Curvature of Vector Functions}
+\section{Arc Length, Curvature of Vector Functions}
 \subsection{Arc Length}
 Pretty self explanatory - length of an arc through space from point a to point b (literally)
 $$L = \int_a^b |r'(t)|dt$$
@@ -561,7 +562,7 @@ Where $s$ is the \textbf{arc length function} discussed previously.
 \paragraph{Therefore: }
 $$\kappa(t) = \frac{|T'(t)|}{|r'(t)|}$$
 $$\kappa(t) = \frac{r'(t) \times r''(t)|}{|r'(t)|^3}$$
-$$\kappa(x) = \frac{|f''(x)|}{[1+(f'(x))^2]^{3/2}$$
+$$\kappa(x) = \frac{|f''(x)|}{[1+(f'(x))^2]}^{3/2}$$
 
 \subsection{Normal and Binormal Vectors}
 \paragraph{Normal vector } $N(t)$ is defined as: 

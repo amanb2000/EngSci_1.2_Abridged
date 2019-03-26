@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  25 MAR 2019 02:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2019.1.7)  26 MAR 2019 18:51
 entering extended mode
 **./MAT195.tex
 (MAT195.tex
@@ -137,21 +137,149 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen118
 \l_MT_above_shortintertext_sep=\dimen119
 \l_MT_below_shortintertext_sep=\dimen120
+)
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+hyperref/hyperref.sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
+c/oberdiek/hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
+c/oberdiek/hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
+c/ifxetex/ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+oberdiek/auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+oberdiek/kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen121
+\Hy@linkcounter=\count105
+\Hy@pagecounter=\count106
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+hyperref/pd1enc.def"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count107
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+00miktex/hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count108
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+url/url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen122
+\Fld@menulength=\count109
+\Field@Width=\dimen123
+\Fld@charsize=\dimen124
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+hyperref/hpdftex.def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count113
+\c@bookmark@seq@number=\count114
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+oberdiek/rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip50
 ) (MAT195.aux)
 \openout1 = `MAT195.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 graphics/graphicx.sty"
@@ -178,73 +306,25 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/contex
 t/base/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen121
+\scratchcounter=\count115
+\scratchdimen=\dimen125
 \scratchbox=\box29
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count116
+\nofMParguments=\count117
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen122
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen126
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks21
 )))
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 oberdiek/epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
-c/oberdiek/infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 oberdiek/grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
-c/oberdiek/kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
-c/oberdiek/ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
-oberdiek/kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
-c/oberdiek/kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
-c/oberdiek/etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
-c/oberdiek/ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
-c/oberdiek/pdftexcmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
-c/oberdiek/ifpdf.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -253,16 +333,36 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\Gin@req@height=\dimen123
-\Gin@req@width=\dimen124
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring OFF on input line 6.
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
+hyperref/nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/generi
+c/oberdiek/gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count121
+)
+LaTeX Info: Redefining \ref on input line 6.
+LaTeX Info: Redefining \pageref on input line 6.
+LaTeX Info: Redefining \nameref on input line 6.
+ (MAT195.out) (MAT195.out)
+\@outlinefile=\write3
+\openout3 = `MAT195.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 amsfonts/umsb.fd"
@@ -272,58 +372,153 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/Users/abhargava/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/
 pdftex.map}] (MAT195.toc
 Overfull \hbox (5.3751pt too wide) in paragraph at lines 32--32
- [][] []\OT1/cmr/m/n/12 Denominator is only Linear Factors but some are Repeate
-d []  
+ [][] [][]\OT1/cmr/m/n/12 Denominator is only Linear Factors but some are Repea
+ted[] []  
  []
 
-[1
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 ...pplications of Integration}{11}{chapter.2}
+                                                  % [1
 
 ] [2])
-\tf@toc=\write3
-\openout3 = `MAT195.toc'.
+\tf@toc=\write4
+\openout4 = `MAT195.toc'.
 
  [3] [4] [5]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 [6
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
 
 ("/Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 base/omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
- [7] [8]
-Overfull \hbox (0.87999pt too wide) in paragraph at lines 123--123
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\intop' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ilimits@' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 86.
+
+[7]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\intop' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ilimits@' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\intop' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ilimits@' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\intop' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ilimits@' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 113.
+
+[8]
+Overfull \hbox (0.87999pt too wide) in paragraph at lines 124--124
 \OT1/cmr/m/n/12 Unlike u-substitution, you are substituting in a non-equivalent
  function ($\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/1
 2 )$)
  []
 
 [9]
-Overfull \hbox (4.72955pt too wide) in paragraph at lines 170--170
+Overfull \hbox (4.72955pt too wide) in paragraph at lines 171--171
 []\OT1/cmr/bx/n/14.4 Denominator has non-repeated Quadratic Factors 
  []
 
 [10]
-Overfull \hbox (41.97488pt too wide) in paragraph at lines 190--191
+Overfull \hbox (41.97488pt too wide) in paragraph at lines 191--192
 []\OT1/cmr/m/n/12 Integration by parts - especially with $\OML/cmm/m/it/12 poly
 nomial \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 transcendentalfunction$ 
  []
@@ -341,25 +536,25 @@ Chapter 4.
 [18
 
 ] [19]
-Overfull \hbox (5.84465pt too wide) in paragraph at lines 340--341
+Overfull \hbox (5.84465pt too wide) in paragraph at lines 341--342
 \OT1/cmr/m/n/12 It's not easy to find the sum of series except for geometric se
 ries and $[] 1\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n\OT1/cmr/m/n
 /12 (1 +
  []
 
 [20]
-Overfull \hbox (17.2658pt too wide) in paragraph at lines 375--375
+Overfull \hbox (17.2658pt too wide) in paragraph at lines 376--376
 []\OT1/cmr/bx/n/17.28 Absolute Convergence and Ratio and Roots
  []
 
 
-Overfull \hbox (12.04326pt too wide) in paragraph at lines 379--380
- \OT1/cmr/bx/n/12 Conditional Convergence: [] \OT1/cmr/m/n/12 When a series is 
-convergent, but not absolutely
+Overfull \hbox (12.04326pt too wide) in paragraph at lines 380--381
+ []\OT1/cmr/bx/n/12 Conditional Convergence: [] \OT1/cmr/m/n/12 When a series i
+s convergent, but not absolutely
  []
 
 [21]
-Overfull \hbox (21.33157pt too wide) in paragraph at lines 383--384
+Overfull \hbox (21.33157pt too wide) in paragraph at lines 384--385
 []\OT1/cmr/m/n/12 if $\OML/cmm/m/it/12 lim[]\OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 (
 \OML/cmm/m/it/12 a[]=a[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 L
  < \OT1/cmr/m/n/12 1$, then the sequence is \OT1/cmr/bx/n/12 absolutely converg
@@ -367,21 +562,38 @@ ent
  []
 
 [22]
-Overfull \hbox (34.91402pt too wide) in paragraph at lines 435--435
- \OT1/cmr/bx/n/12 General Strategy for Representing as Power Series: [] \OT1/cm
-r/m/n/12 Integrate/differentiate
+Overfull \hbox (34.91402pt too wide) in paragraph at lines 436--436
+ []\OT1/cmr/bx/n/12 General Strategy for Representing as Power Series: [] \OT1/
+cmr/m/n/12 Integrate/differentiate
  []
 
-[23] [24] [25] [26]
+[23] [24]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 492.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\not' on input line 492.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pi' on input line 492.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 492.
+
+[25] [26]
 Chapter 5.
 
-Overfull \hbox (15.25035pt too wide) in paragraph at lines 502--503
- \OT1/cmr/bx/n/12 Quadratic Surface definition: [] \OT1/cmr/m/n/12 Second-degre
-e equation with three variables
+Overfull \hbox (15.25035pt too wide) in paragraph at lines 503--504
+ []\OT1/cmr/bx/n/12 Quadratic Surface definition: [] \OT1/cmr/m/n/12 Second-deg
+ree equation with three variables
  []
 
 
-Overfull \hbox (3.62616pt too wide) in paragraph at lines 510--511
+Overfull \hbox (3.62616pt too wide) in paragraph at lines 511--512
 []\OT1/cmr/m/n/12 Elliptic Paraboloid: $\OML/cmm/m/it/12 z=c \OT1/cmr/m/n/12 = 
 \OML/cmm/m/it/12 x[]=a[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 y[]=b[]$\OT1/cmr/m/
 n/12 , looks like upward 3d hyperbolic
@@ -391,50 +603,59 @@ n/12 , looks like upward 3d hyperbolic
 
 ]
 Chapter 6.
-
-Overfull \hbox (29.4338pt too wide) in paragraph at lines 527--527
-[]\OT1/cmr/bx/n/17.28 Derivatives and Integrals of Vector Functions 
- []
-
 [28
 
 ]
-Overfull \hbox (41.95778pt too wide) in paragraph at lines 540--540
-[]\OT1/cmr/bx/n/17.28 Arc Length and Curvature of Vector Functions 
+Overfull \hbox (12.4198pt too wide) in paragraph at lines 541--541
+[]\OT1/cmr/bx/n/17.28 Arc Length, Curvature of Vector Functions 
  []
 
-[29] (MAT195.aux) ) 
+[29] [30]
+Chapter 7.
+[31
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 611.
+ [32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 611.
+ (MAT195.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 611.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 611.
+Package rerunfilecheck Info: File `MAT195.out' has not changed.
+(rerunfilecheck)             Checksum: C913FADA18CE3A333DE5B07C50E503C4;7864.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 611.
+ ) 
 Here is how much of TeX's memory you used:
- 2718 strings out of 494866
- 41885 string characters out of 3176398
- 108345 words of memory out of 3000000
- 6330 multiletter control sequences out of 15000+200000
+ 6607 strings out of 494866
+ 100190 string characters out of 3176398
+ 188333 words of memory out of 3000000
+ 9945 multiletter control sequences out of 15000+200000
  13525 words of font info for 52 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 55i,8n,30p,320b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
-</Users/abhargava/Library/Application Support/MiKTeX/texmfs/
-install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/abhargava/Library/App
-lication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pf
-b></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb></Users/abhargava/Library/Application Support/
-MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/abharga
+ 42i,11n,31p,320b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
+</Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></Users/abhargava/Library/Application Support/
+MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/abharga
 va/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/abhargava/Library/Applicat
-ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Us
-ers/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb></Users/abhargava/Library/Application Support/MiKTeX/
-texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/abhargava/Librar
-y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8
-.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></Users/abhargava/Library/Application Suppo
-rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/abhar
-gava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/i
-nstall/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MAT195.pdf (30 pages, 213839 bytes).
+s/cm/cmmi10.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/abhargava/Library/Applic
+ation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></Users/abhargava/Library/Application Support/MiKTe
+X/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/abhargava/Lib
+rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb></Users/abhargava/Library/Application Sup
+port/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/abha
+rgava/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></Users/abhargava/Library/Application Support/MiKTeX/texmfs/
+install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/abhargava/Library/Appl
+ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
+></Users/abhargava/Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmtt12.pfb>
+Output written on MAT195.pdf (33 pages, 297784 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 897 PDF objects out of 1000 (max. 8388607)
+ 256 named destinations out of 1000 (max. 500000)
+ 841 words of extra memory for PDF output out of 10000 (max. 10000000)
 
