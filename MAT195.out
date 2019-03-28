@@ -60,46 +60,50 @@
 \BOOKMARK [2][-]{subsection.4.2.4}{Test for Divergence}{section.4.2}% 60
 \BOOKMARK [2][-]{subsection.4.2.5}{Working with Series}{section.4.2}% 61
 \BOOKMARK [2][-]{subsection.4.2.6}{Comparison Test}{section.4.2}% 62
-\BOOKMARK [2][-]{subsection.4.2.7}{P-Series}{section.4.2}% 63
-\BOOKMARK [1][-]{section.4.3}{The Integral Test and Estimates of Sums}{chapter.4}% 64
-\BOOKMARK [2][-]{subsection.4.3.1}{Integral Test}{section.4.3}% 65
-\BOOKMARK [2][-]{subsection.4.3.2}{Estimating The Sum of a Series}{section.4.3}% 66
-\BOOKMARK [1][-]{section.4.4}{Comparison Tests}{chapter.4}% 67
-\BOOKMARK [2][-]{subsection.4.4.1}{The Limit Comparison Test}{section.4.4}% 68
-\BOOKMARK [1][-]{section.4.5}{Alternating Series}{chapter.4}% 69
-\BOOKMARK [2][-]{subsection.4.5.1}{Alternating Series Test}{section.4.5}% 70
-\BOOKMARK [2][-]{subsection.4.5.2}{Estimating Sums for Alternating Series}{section.4.5}% 71
-\BOOKMARK [1][-]{section.4.6}{Absolute Convergence and Ratio and Roots Test}{chapter.4}% 72
-\BOOKMARK [2][-]{subsection.4.6.1}{Absolute Convergence}{section.4.6}% 73
-\BOOKMARK [2][-]{subsection.4.6.2}{Ratio Test}{section.4.6}% 74
-\BOOKMARK [2][-]{subsection.4.6.3}{Root Test}{section.4.6}% 75
-\BOOKMARK [2][-]{subsection.4.6.4}{Rearrangements}{section.4.6}% 76
-\BOOKMARK [1][-]{section.4.7}{Strategy for Series: }{chapter.4}% 77
-\BOOKMARK [1][-]{section.4.8}{Power Series}{chapter.4}% 78
-\BOOKMARK [2][-]{subsection.4.8.1}{3 Possibilities for Power Series}{section.4.8}% 79
-\BOOKMARK [1][-]{section.4.9}{Representing Functions as Power Series}{chapter.4}% 80
-\BOOKMARK [1][-]{section.4.10}{Taylor and McLauren Series}{chapter.4}% 81
-\BOOKMARK [2][-]{subsection.4.10.1}{Taylor Series}{section.4.10}% 82
-\BOOKMARK [2][-]{subsection.4.10.2}{Finding the Radius of Convergence for Taylor Series}{section.4.10}% 83
-\BOOKMARK [2][-]{subsection.4.10.3}{Taylor's Inequality}{section.4.10}% 84
-\BOOKMARK [2][-]{subsection.4.10.4}{Manipulations of Power Series}{section.4.10}% 85
-\BOOKMARK [1][-]{section.4.11}{Fourier Series}{chapter.4}% 86
-\BOOKMARK [2][-]{subsection.4.11.1}{Fourier Convergence Theorem}{section.4.11}% 87
-\BOOKMARK [2][-]{subsection.4.11.2}{Fourier Series for T =}{section.4.11}% 88
-\BOOKMARK [0][-]{chapter.5}{Vectors and Space}{}% 89
-\BOOKMARK [1][-]{section.5.1}{Cylinders and Quadratic Surfaces}{chapter.5}% 90
-\BOOKMARK [0][-]{chapter.6}{Vector Functions}{}% 91
-\BOOKMARK [1][-]{section.6.1}{Vector Functions and Space Curves}{chapter.6}% 92
-\BOOKMARK [1][-]{section.6.2}{Derivatives, Integrals of Vector Functions}{chapter.6}% 93
-\BOOKMARK [1][-]{section.6.3}{Basic Vector Operation Definitions}{chapter.6}% 94
-\BOOKMARK [2][-]{subsection.6.3.1}{Integrals of Vector Functions}{section.6.3}% 95
-\BOOKMARK [1][-]{section.6.4}{Arc Length, Curvature of Vector Functions}{chapter.6}% 96
-\BOOKMARK [2][-]{subsection.6.4.1}{Arc Length}{section.6.4}% 97
-\BOOKMARK [2][-]{subsection.6.4.2}{Curvature}{section.6.4}% 98
-\BOOKMARK [2][-]{subsection.6.4.3}{Normal and Binormal Vectors}{section.6.4}% 99
-\BOOKMARK [2][-]{subsection.6.4.4}{Velocity and Acceleration}{section.6.4}% 100
-\BOOKMARK [0][-]{chapter.7}{Partial Derivatives}{}% 101
-\BOOKMARK [1][-]{section.7.1}{Functions of Several Variables}{chapter.7}% 102
-\BOOKMARK [1][-]{section.7.2}{Limits and Continuity with Functions of Several Variables}{chapter.7}% 103
-\BOOKMARK [2][-]{subsection.7.2.1}{Limits}{section.7.2}% 104
-\BOOKMARK [2][-]{subsection.7.2.2}{Continuity}{section.7.2}% 105
+\BOOKMARK [2][-]{subsection.4.2.7}{Limit Comparison Test}{section.4.2}% 63
+\BOOKMARK [2][-]{subsection.4.2.8}{P-Series}{section.4.2}% 64
+\BOOKMARK [1][-]{section.4.3}{The Integral Test and Estimates of Sums}{chapter.4}% 65
+\BOOKMARK [2][-]{subsection.4.3.1}{Integral Test}{section.4.3}% 66
+\BOOKMARK [2][-]{subsection.4.3.2}{Estimating The Sum of a Series}{section.4.3}% 67
+\BOOKMARK [1][-]{section.4.4}{Comparison Tests}{chapter.4}% 68
+\BOOKMARK [2][-]{subsection.4.4.1}{The Limit Comparison Test}{section.4.4}% 69
+\BOOKMARK [1][-]{section.4.5}{Alternating Series}{chapter.4}% 70
+\BOOKMARK [2][-]{subsection.4.5.1}{Alternating Series Test}{section.4.5}% 71
+\BOOKMARK [2][-]{subsection.4.5.2}{Estimating Sums for Alternating Series}{section.4.5}% 72
+\BOOKMARK [1][-]{section.4.6}{Absolute Convergence and Ratio and Roots Test}{chapter.4}% 73
+\BOOKMARK [2][-]{subsection.4.6.1}{Absolute Convergence}{section.4.6}% 74
+\BOOKMARK [2][-]{subsection.4.6.2}{Ratio Test}{section.4.6}% 75
+\BOOKMARK [2][-]{subsection.4.6.3}{Root Test}{section.4.6}% 76
+\BOOKMARK [2][-]{subsection.4.6.4}{Rearrangements}{section.4.6}% 77
+\BOOKMARK [1][-]{section.4.7}{Strategy for Series: }{chapter.4}% 78
+\BOOKMARK [1][-]{section.4.8}{Power Series}{chapter.4}% 79
+\BOOKMARK [2][-]{subsection.4.8.1}{3 Possibilities for Power Series}{section.4.8}% 80
+\BOOKMARK [1][-]{section.4.9}{Representing Functions as Power Series}{chapter.4}% 81
+\BOOKMARK [1][-]{section.4.10}{Taylor and McLauren Series}{chapter.4}% 82
+\BOOKMARK [2][-]{subsection.4.10.1}{Taylor Series}{section.4.10}% 83
+\BOOKMARK [2][-]{subsection.4.10.2}{Finding the Radius of Convergence for Taylor Series}{section.4.10}% 84
+\BOOKMARK [2][-]{subsection.4.10.3}{Taylor's Inequality}{section.4.10}% 85
+\BOOKMARK [2][-]{subsection.4.10.4}{Manipulations of Power Series}{section.4.10}% 86
+\BOOKMARK [0][-]{chapter.5}{All Continuous Functions are Integrable}{}% 87
+\BOOKMARK [1][-]{section.5.1}{Starting Point, Definitions: }{chapter.5}% 88
+\BOOKMARK [1][-]{section.5.2}{Tips for answering questions}{chapter.5}% 89
+\BOOKMARK [1][-]{section.5.3}{Fourier Series}{chapter.5}% 90
+\BOOKMARK [2][-]{subsection.5.3.1}{Fourier Convergence Theorem}{section.5.3}% 91
+\BOOKMARK [2][-]{subsection.5.3.2}{Fourier Series for T =}{section.5.3}% 92
+\BOOKMARK [0][-]{chapter.6}{Vectors and Space}{}% 93
+\BOOKMARK [1][-]{section.6.1}{Cylinders and Quadratic Surfaces}{chapter.6}% 94
+\BOOKMARK [0][-]{chapter.7}{Vector Functions}{}% 95
+\BOOKMARK [1][-]{section.7.1}{Vector Functions and Space Curves}{chapter.7}% 96
+\BOOKMARK [1][-]{section.7.2}{Derivatives, Integrals of Vector Functions}{chapter.7}% 97
+\BOOKMARK [1][-]{section.7.3}{Basic Vector Operation Definitions}{chapter.7}% 98
+\BOOKMARK [2][-]{subsection.7.3.1}{Integrals of Vector Functions}{section.7.3}% 99
+\BOOKMARK [1][-]{section.7.4}{Arc Length, Curvature of Vector Functions}{chapter.7}% 100
+\BOOKMARK [2][-]{subsection.7.4.1}{Arc Length}{section.7.4}% 101
+\BOOKMARK [2][-]{subsection.7.4.2}{Curvature}{section.7.4}% 102
+\BOOKMARK [2][-]{subsection.7.4.3}{Normal and Binormal Vectors}{section.7.4}% 103
+\BOOKMARK [2][-]{subsection.7.4.4}{Velocity and Acceleration}{section.7.4}% 104
+\BOOKMARK [0][-]{chapter.8}{Partial Derivatives}{}% 105
+\BOOKMARK [1][-]{section.8.1}{Functions of Several Variables}{chapter.8}% 106
+\BOOKMARK [1][-]{section.8.2}{Limits and Continuity with Functions of Several Variables}{chapter.8}% 107
+\BOOKMARK [2][-]{subsection.8.2.1}{Limits}{section.8.2}% 108
+\BOOKMARK [2][-]{subsection.8.2.2}{Continuity}{section.8.2}% 109

@@ -328,9 +328,22 @@ $$\sum (a_n + b_n) = \sum a_n + \sum b_n$$
 $$\sum (c * a_n) = c \sum a_n$$
 
 \subsection{Comparison Test}
+If $a_n$ is less than $b_n$ for all $n$ and $\sum^{\infty}b_n$ converges, then $\sum^{\infty}a_n$ also converges. Likewise, if the sum of $b_n$ diverges and $a_n$ is greater for all $n$, then the sum of $a_n$ diverges. 
+
+\paragraph{Conditions for Comparison Test: } 
+\begin{enumerate}
+\item Must be series with positive terms.
+\end{enumerate}
+
+\subsection{Limit Comparison Test}
 Let $a_n$ be one series you DON'T know the limit of and $b_n$ be another. Make sure $a_n/b_n$ divides nicely. let $c = \lim_{n \to \infty}a_n/b_n$
 
 Use $c$ as a comparator - if it tells you that $a$ is bigger than $b$ and $b$ is known to be divergent, then $a$ must be divergent, etc.
+
+\paragraph{Conditions for Limit Comparison Test}
+\begin{enumerate}
+\item $a_n$ and $b_N$ must both be series with positive terms.
+\end{enumerate}
 
 \subsection{P-Series}
 A p-series is of the form: $$\sum_{n=1}^{\infty} 1/{n^p}$$
@@ -341,6 +354,13 @@ If $p > 1$, it converges. Otherwise it diverges.
 It's not easy to find the sum of series except for geometric series and $\sum 1/[n(1+n)]$. 
 
 To prove that a sum diverges, take the integral of the continuous function $f(n) = a_n$ from $1 \to \infty$. If the integral is divergent, then so is the sum. If the integral is convergent, so is the sum. Think about the geometric argument and draw out the boxes on the page if necessary (reimann sums). 
+
+\paragraph{Conditions for Applying the Integral Test: }
+\begin{enumerate}
+\item Continuous
+\item Positive
+\item Decreasing
+\end{enumerate}
 
 \subsection{Estimating The Sum of a Series}
 Any partial sum of a series is an approximation of the infinite sum. We can get a good picture of how good the approximation is via the \texttt{remainder}.
@@ -375,7 +395,7 @@ $$ |R_n| = |s-s_n| \leq b_{n+1} $$
 
 \section{Absolute Convergence and Ratio and Roots Test}
 \subsection{Absolute Convergence}
-\paragraph{Definition: } $\sum a_n$ is convergent is $\sum |a_n|$ converges.
+\paragraph{Definition: } $\sum a_n$ is absolutely convergent if $\sum |a_n|$ converges.
 
 \paragraph{Conditional Convergence: } When a series is convergent, but not absolutely so (depends on the operators between values in series).
 
@@ -389,6 +409,9 @@ $$ |R_n| = |s-s_n| \leq b_{n+1} $$
 \subsection{Root Test}
 This is just the same as the ratio test, but as it turnt out, you can apply the ratio test to stuff inside nth roots and the same results will be forthcoming. 
 
+
+Basically, if the limit of whatever inside the root is $<1$ then it converges and so on.
+
 \subsection{Rearrangements}
 \begin{enumerate}
 \item Any rearrangement of a \textbf{absolutely convergent} series is the same.
@@ -398,7 +421,7 @@ Non-absolutely convergent series don't have the same sums necessarily when the o
 
 \section{Strategy for Series: }
 \begin{enumerate}
-\item Is it a p-series (form: $\sum 1/{n^p}$)? If p > 1, it converges, otherwise, it doesn't. 
+\item Is it a p-series (form: $\sum 1/{n^p}$)? If $p > 1$, it converges, otherwise, it doesn't. 
 \item Is it a geometric series (form: $\sum ar^{n-1}$? If $|r| < 1$, then it converges. Otherwise it diverges.
 \item If it is similar to a p-series or geometric series, use a comparison test.
 \item If you can tell that $\lim_{n\to\infty} a_n \neq 0$, use \textbf{Test for Divegence} 
@@ -468,6 +491,35 @@ Divide power series by long division informally...
 
 ...
 
+\chapter{All Continuous Functions are Integrable}
+This section is pretty strange in my opinion. This course is mostly quite procedural and technique-based, but in the middle, we are suddenly spending a large chunk of time on one proof.
+
+The questions pertaining to this proof are fairly straightforward if you know the terminology used in the proof well. So, I'll focus on that for this section rather than going over the proof again (the professors for this course posted a pretty decent PDF of the proof that you can read if you want all the details). 
+
+\section{Starting Point, Definitions: }
+$$\int_a^b f(x) dx = \lim_{||P|| \to 0} \sum_{i=1}^{n} f(x_i*)\Delta x_i$$
+
+\begin{enumerate}
+\item $||P||$ is the size of any \textbf{partition} in $[a, b]$
+\item \textbf{Lower sum sequence: } $$L_{2^n} = \frac{(b-a)}{2^n} \sum_{i=1}^{2^n} f_i^{min}$$
+\item \textbf{Upper sum sequence: } $$U_{2^n} = \frac{(b-a)}{2^n} \sum_{i=1}^{2^n} f_i^{max}$$
+\item \textbf{Note on upper/lower sequences: } they are obviously bounded, and as you increase the $n$ in the $2^n$, the lower sum sequence is \textbf{strictly increasing} and the upper sum sequence is \textbf{strrictly decreasing}. Think about it :)
+\item How the squeeze theorem ties it all together: If you get that the upper and lower sum sequences converge, and you also understand that the true integral is \textbf{always} between the values of the upper anas lower sums, then it's trivial to say that the limit as $n\to \infty$ of $L_{2^n}$ which is equal to that of $U_{2^n}$ is the value of the integral.
+\item \textbf{Definition of uniform continuity:} If you can find just one $\delta$ for any $\epsilon$ imposed for an area $[a, b]$ that satisfies the limit/continuity definitions for delta-epsilon proofs, then the function is uniformly continuous on that region $[a, b]$.A
+\item \textbf{Definition of span:} Span is $s = M-m$ where M is the max of an interval and m is the minimum of that interval.
+\begin{enumerate}
+\item \textbf{Small span theorem:} For a continuous function on a given interval, you can divide the function into $2^n$ sub-intervals that have a span less than any given $\epsilon > 0$
+\end{enumerate}
+\item Thanks to the \textbf{small span theorem}, you can keep increasing $n$ in $2^n$ and dividing a region into that many parititions to make the difference between the max and the min of that partition approach zero, hence ensuring that the \textbf{Upper sum sequence} will approach the \textbf{Lower sum sequence}. 
+\end{enumerate}
+
+\section{Tips for answering questions}
+\begin{itemize}
+\item If they ask you to prove that something is not integrable, think about why the $$L_{2^n}$$ would not converge with the $$U_{2^n}$$.
+\end{itemize}
+
+
+
 
 \section{Fourier Series}
 \paragraph{Form of Fourier Series: }
@@ -491,7 +543,7 @@ Here are the prerequisites for the Fourier series to converge:
 
 \subsection{Fourier Series for $T \neq \pi$}
 Let period be $2L$
-$$f(x) = a_0 + \sum_{n=1}^{\infty} [a_n cos(\frac{n\pi x}{L} + b_n sin(\frac{n\pi x}{L}]$$
+$$f(x) = a_0 + \sum_{n=1}^{\infty} [a_n cos(\frac{n\pi x}{L}) + b_n sin(\frac{n\pi x}{L})]$$
 $$a_0 = \frac{1}{2L} \int_{-L}^{L} f(x) dx$$
 $$a_n = \frac{1}{L}\int_{-L}^{L} f(x) cos(\frac{n\pi x}{L}) dx$$
 $$b_n = \frac{1}{L}\int_{-L}^{L} f(x) sin(\frac{n\pi x}{L}) dx$$
@@ -551,7 +603,7 @@ $$s(t) = \int_a^t |r'(u)| du = \int_a^t \sqrt{(dx/du)^2 + (dy/du)^2 + (dz/du)^2}
 \subsection{Curvature}
 A curve $r(t)$ is smooth is $r'(t)$ is continuous and $r'(t) \neq 0$ on the interval. Basically, the tangent vector isn't allowed to turn discontinuously.
 
-$$T(t) = \frac{r'(t)}{|r'(t)}$$
+$$T(t) = \frac{r'(t)}{|r'(t)|}$$
 Where $T(t)$ is the tangent vector at time $t$. 
 
 \paragraph{The curvature of a curve } is defined as:
@@ -561,7 +613,7 @@ Where $s$ is the \textbf{arc length function} discussed previously.
 
 \paragraph{Therefore: }
 $$\kappa(t) = \frac{|T'(t)|}{|r'(t)|}$$
-$$\kappa(t) = \frac{r'(t) \times r''(t)|}{|r'(t)|^3}$$
+$$\kappa(t) = \frac{|r'(t) \times r''(t)|}{|r'(t)|^3}$$
 $$\kappa(x) = \frac{|f''(x)|}{[1+(f'(x))^2]}^{3/2}$$
 
 \subsection{Normal and Binormal Vectors}
