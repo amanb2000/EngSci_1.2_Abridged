@@ -516,6 +516,8 @@ $$\int_a^b f(x) dx = \lim_{||P|| \to 0} \sum_{i=1}^{n} f(x_i*)\Delta x_i$$
 \section{Tips for answering questions}
 \begin{itemize}
 \item If they ask you to prove that something is not integrable, think about why the $$L_{2^n}$$ would not converge with the $$U_{2^n}$$.
+\item If they ask a proofy questions where you assert that there is a max/min on an interval, invoke the \textbf{extreme value theorem}
+\item 
 \end{itemize}
 
 
@@ -527,7 +529,7 @@ $$f(x) = a_0 + \sum_{n=1}^{\infty} (a_n cos(nx) + b_n sin(nx))$$
 for $-\pi \leq x \leq \pi$
 
 \paragraph{Finding Coefficients: }
-$$a_0 = \frac{1}{2\pi} \int_{-\pi}{\pi} f(x) dx$$
+$$a_0 = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x) dx$$
 
 $$a_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) cos(nx) dx$$
 
@@ -614,7 +616,7 @@ Where $s$ is the \textbf{arc length function} discussed previously.
 \paragraph{Therefore: }
 $$\kappa(t) = \frac{|T'(t)|}{|r'(t)|}$$
 $$\kappa(t) = \frac{|r'(t) \times r''(t)|}{|r'(t)|^3}$$
-$$\kappa(x) = \frac{|f''(x)|}{[1+(f'(x))^2]}^{3/2}$$
+$$\kappa(x) = \frac{|f''(x)|}{[1+(f'(x))^2]^{3/2}}$$
 
 \subsection{Normal and Binormal Vectors}
 \paragraph{Normal vector } $N(t)$ is defined as: 
@@ -660,4 +662,9 @@ $f(x, y)$ is continuous if $\lim_{(x, y) \to (a, b)} f(x, y) = f(a, b)$ for all 
 Polynomials with two variables are the sum of $cx^my^n$ where $c$ is constant and $m$ and $n$ are non-negative integers.
 
 All polynomials of two variables are continuous. 
+
+\chapter{Next chapter}
+
+\section{Part 1: }
+This is part one.
 \end{document}
