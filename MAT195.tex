@@ -663,5 +663,89 @@ Polynomials with two variables are the sum of $cx^my^n$ where $c$ is constant an
 
 All polynomials of two variables are continuous. 
 
-\end{document}
 
+\section{Partial Derivatives}
+
+When we take the derivatives of functions of multiple variables, we can pretend that all varaibles are static except for one and take the regular derivative of that one variable.
+
+For instance, if we were plotting the \textit{price of a house} $p$ based on the size $s$ and the proximity $d$ to the ocean, we can take the \textbf{partial derivative} with respect to the size of the house at a certain proximity to the ocean by pretending that the proximity to the ocean is a constant and thus making the \textit{price of house} function a function of just the size of the house. 
+$$p(s, d)$$
+$$p_s(s) = p(s, 50)$$
+Above is an arbitrary value of $d$ at which to take the partial derivative.
+
+$p_s'(s)$ is the partial derivative with respect to $s$ at distance $d=50$.
+
+Based on this definition, the limit definition of derivatives would work exactly how you think they would work (basically just varying one variable by factor $a$ and keeping the other one the same)
+
+$$f_x(x, y) = lim_{h\to 0}\frac{f(x+h, y)-f(x, y)}{h}$$
+$$f_y(x, y) = lim_{h\to 0}\frac{f(x, y+h)-f(x, y)}{h}$$
+
+Other notations for partial derivatives (let $z = f(x, y)$)
+
+$$f_x(x, y) = f_x = \frac{\partial f}{\partial x} = \frac{\partial}{\partial x} f(x, y) = \frac{\partial z}{\partial x} = D_1f = D_xf$$
+$$f_y(x, y) = f_y = \frac{\partial f}{\partial y} = \frac{\partial}{\partial y} f(x, y) = \frac{\partial z}{\partial y} = D_2f = D_yf$$
+
+\paragraph{How to find: }
+Regard the non-mentioned variable in the notation as a constant and differentiate with respect to the mentioned variable.
+
+\subsection{Higher Partial Derivatives}
+$$(f_x)_y = f_{xy} = f_{12} = \frac{\partial}{\partial y} (\frac{\partial f}{\partial x}) = \frac{\partial ^2 f}{\partial y \partial x} = \frac{\partial z}{\partial y \partial x}$$
+
+\subsubsection{Clairaut's Theorem}
+If $f_{xy}$ and $f_{yx}$ are both \textbf{defined} and \textbf{continuous} on disk $D$ then:
+$$f_{xy}(a, b) = f_{yx}(a, b)$$
+
+\subsection{Partial Differential Equations}
+Basically, they exist. We don't really learn how to solve them much in this section/course(?) because that would be super hard. Like think about how hard normal differential equations are, then imagine if they were PARTIAL differentiatial equations. Plus, in real life, you'd just use a computer for them like a normal human being. 
+
+\section{Tangent Planes and Linear Approximations}
+The tangent plane to a point on a function of multiple variables is the plane that contains the first-order partial derivatives of that function at that point. In essence, it is the set of all linear approximations to the vectors produced by taking the partial derivative with respect to each independent variable.
+\subsection{Tangent Planes}
+\paragraph{The form of a plane passing through given points } $x_0$, $y_0$, and $z_0$ is:
+$$A(x-x_0) + B(y-y_0) + C(z-z_0) = 0$$
+
+Rearranging and substituting some knowledge, we get:
+\paragraph{Formula for tangent plane to a point: }
+$$z - z_0 = f_{x}(x_0, y_0) (x-x_0) + f_y(x_0, y_0)(y-y_0)$$
+
+\subsection{Linear Approximations}
+The tangent plane is analogous to the tangent line for functions of one variable. Like with the linear approximations we are used to, you just plug the known coordinates into the tangent plane function to find the linear (tangent plane) approximation.
+$$f(x, y) = f_{x}(x_0, y_0)(x-x_0) + f_y(x_0, y_0)(y-y_0) + f(a, b)$$
+
+\paragraph{Important theorem on differentiability: } If $f_x$ and $f_y$ exist near $(a, b)$ then $f(x, y)$ is differentiable at $(a, b)$
+
+\subsection{Differentials}
+$$dy = f'(x) dx$$
+$$dz = f_x(x, y)dx + f_y(x, y)dy = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y}dy$$
+
+\section{Chain Rule (With Many Variables)}
+$$\frac{dy}{dt} = \frac{dy}{dx} \frac{dx}{dt}$$
+
+\subsection{Chain Rule: Case 1}
+$z = f(x, y)$ and $x = g(t)$ and $y = h(t)$. If $x$ and $y$ are differentiable functions of $t$, then $z(t)$ is a differentiable function of $t$
+$$\frac{dz}{dt} = \frac{\partial f}{\partial x} \frac{dx}{dt} + \frac{\partial f}{\partial y} \frac{dy}{dt}$$
+
+\subsection{Chain Rule: Case 2}
+Pretty pointless, just use the general rule.
+
+\subsection{Chain Rule: General Rule} 
+If $u$ is a differentiable function of $n$ variables and each $x_j$ is a differentiable function of $m$ variables $t_1 ... t_m$, then
+$$\frac{\partial u}{\partial t_i} = \frac{\partial u}{\partial x_1} + \frac{\partial u}{\partial x_2} + ... + \frac{\partial u}{\partial x_n} \frac{\partial x_n}{\partial t_i}$$
+
+\subsection{Implicit Differentiation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
