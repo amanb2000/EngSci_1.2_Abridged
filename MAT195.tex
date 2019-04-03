@@ -719,6 +719,7 @@ $$dy = f'(x) dx$$
 $$dz = f_x(x, y)dx + f_y(x, y)dy = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y}dy$$
 
 \section{Chain Rule (With Many Variables)}
+\paragraph{Normal chain rule: }
 $$\frac{dy}{dt} = \frac{dy}{dx} \frac{dx}{dt}$$
 
 \subsection{Chain Rule: Case 1}
@@ -733,6 +734,19 @@ If $u$ is a differentiable function of $n$ variables and each $x_j$ is a differe
 $$\frac{\partial u}{\partial t_i} = \frac{\partial u}{\partial x_1} + \frac{\partial u}{\partial x_2} + ... + \frac{\partial u}{\partial x_n} \frac{\partial x_n}{\partial t_i}$$
 
 \subsection{Implicit Differentiation}
+Assume that an equation $F(x, y) = 0$ implicitly defines $y$ as a differentiable function of $x$.
+
+If we let $y = f(x)$, then the above becomes $F(x, f(x)) = 0$.
+
+From there, we can use the chain rule (case 1) to find $\frac{\partial F}{\partial x}$
+
+$$\frac{\partial F}{\partial x} \frac{\partial x}{\partial x} + \frac{\partial F}{\partial y} \frac{\partial y}{partial x} = 0$$
+
+\paragraph{Resulting Implicit Differentiation Theorem}
+$$\frac{dy}{dx} = - \frac{ \frac{\partial F}{\partial x} }{ \frac{\partial F}{\partial y} } = - \frac{F_x}{F_y}$$
+
+$$\frac{\partial z}{\partial x} = - \frac{F_x}{F_z}$$
+$$\frac{\partial z}{\partial y} = - \frac{F_y}{F_z}$$
 
 
 
