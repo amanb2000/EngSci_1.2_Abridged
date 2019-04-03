@@ -731,7 +731,7 @@ Pretty pointless, just use the general rule.
 
 \subsection{Chain Rule: General Rule} 
 If $u$ is a differentiable function of $n$ variables and each $x_j$ is a differentiable function of $m$ variables $t_1 ... t_m$, then
-$$\frac{\partial u}{\partial t_i} = \frac{\partial u}{\partial x_1} + \frac{\partial u}{\partial x_2} + ... + \frac{\partial u}{\partial x_n} \frac{\partial x_n}{\partial t_i}$$
+$$\frac{\partial u}{\partial t_i} = \frac{\partial u}{\partial x_1}\frac{\partial x_1}{\partial t_i} + ... + \frac{\partial u}{\partial x_n} \frac{\partial x_n}{\partial t_i}$$
 
 \subsection{Implicit Differentiation}
 Assume that an equation $F(x, y) = 0$ implicitly defines $y$ as a differentiable function of $x$.
