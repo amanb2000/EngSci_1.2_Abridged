@@ -752,6 +752,102 @@ $$\frac{dy}{dx} = - \frac{ \frac{\partial F}{\partial x} }{ \frac{\partial F}{\p
 $$\frac{\partial z}{\partial x} = - \frac{F_x}{F_z}$$
 $$\frac{\partial z}{\partial y} = - \frac{F_y}{F_z}$$
 
+\section{Directional Derivatives and the Gradient Vector}
+What if you want to know the instantaneous rate of change as you in a direction that isn't perfectly aligned with an axis? Recall how 
+if you have a function $f(x, y)$ you can have partial derivatives $f_x, f_y$ that you can use to find $df/dx, df/dy$. However, 
+if you had a function of two variables describing the shape of a hill and wanted to know the curvature of the hill at a particular
+point, it's more useful to be able to be able to find the instaneous rate of change of $f$ with respect to any given direciton.
+
+\subsection{Directional Derivatives}
+
+Recall the definitions of partial derivatives $f_x$ and $f_y$:
+$$f_x(x_0, y_0) = lim_{h \to 0} \frac{f(x_0+h, y_0)-f(x_0, y_0)}{h}$$
+$$f_y(x_0, y_0) = lim_{h \to 0} \frac{f(x_0, y_0+h)-f(x_0, y_0)}{h}$$
+
+Now we can imagine that these are the instantaneous rates of change of $f$ in the $i$ and $j$ directions (the unit vectors, not the imaginary numbers).
+
+\subsubsection{Definition: }
+Let $u$ be a unit vector $[a, b]$. Then
+
+$$D_u f(x_0, y_0) = lim_{h \to 0} \frac{f(x_0+ha, y_0+hb)-f(x_0, y_0}{h}$$
+
+is the directional derivative in the direction of u, assuming the limit exists.
+
+\subsubsection{More useful definition: }
+$$D_u f(x, y) = f_x(x, y)a + f_y(x, y)b$$
+if $u = [a, b]$ is a unit vector.
+
+\subsection{Gradient Vector}
+The gradient vector is just the partials packaged into a vector. Often notated as 'grad $f$' or $\nabla f$ (pronounced "del f")
+
+$$\nabla f = [f_x, f_y]$$
+
+Also can be written:
+
+$$\nabla f(x, y) = \frac{\partial f}{\partial x} i + \frac{\partial f}{\partial y} j$$
+
+\subsubsection{Maximizing the Directional Derivative}
+The motivation here is to find the direction of steepest slope for a multi-variable function.
+
+
+It \textbf{always} will occur when $u$ (the direction vector) is in the same direction as $\nabla f(x)$ (where $x$ is a vector of the inputs to the function.
+
+\subsubsection{Tangent Planes to Level Surfaces}
+Let's say that $F(x, y, z) = k$ defines a \textbf{3D surface}, and let $P$ be a point on that surface.
+
+Let $C$ be a curve that lies on surface $F$ going through $P$. 
+
+$C = r(t) = [x(t), y(t), z(t)]$. Let $t_0$ be paramater value corresponding to point $P$ on curve.
+
+$F(x(t), y(t), z(t)) = k$ because $C$ lies on $F$.
+
+Differentiating both sides give: $$\frac{\partial F}{\partial x} \frac{dx}{dy} + \frac{\partial F}{\partial y} \frac{dy}{dt} + ... = 0$$
+
+Since $\nabla F = [F_x, F_y, F_z]$, that means that:
+
+$$\nabla F(t) * r'(t) = 0$$
+
+Therefore the gradient of a surface will always be \textbf{perpendicular} to the tangent plane of that surface!
+
+Remember how to write the equation for the plane tangent to a 3d surface (think of the expansion of the linearization thing...)?
+
+Here's how you write the equation of the gradient line and also the line tangent to the tangent plane to a 3d curve.
+
+
+$$\frac{x-x_0}{F_x(x_0, y_0, z_0} = \frac{y-y_0}{F_y(x_0, y_0, z_0} = \frac{z-z_0}{F_z(x_0, y_0, z_0}$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
