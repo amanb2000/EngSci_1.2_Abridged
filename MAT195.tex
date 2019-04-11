@@ -816,48 +816,70 @@ Here's how you write the equation of the gradient line and also the line tangent
 
 $$\frac{x-x_0}{F_x(x_0, y_0, z_0} = \frac{y-y_0}{F_y(x_0, y_0, z_0} = \frac{z-z_0}{F_z(x_0, y_0, z_0}$$
 
+\section{Maximum and Minimum Values}
 
+\subsection{Definitions}
+\textbf{Local} maxima/minima are greater/less than points that are close (partial derivatives are all zero if they exist there).
+\textbf{Absolute} maxima/minima are greater/less than ALL points in a specified region (partial derivatives are all zero if they exist there).
 
+\subsection{Second Derivative Test}
+The first derivative test mentioned above is pretty straight forward to extrapolate from previous stuff we've learned about 2D functions.
 
+The second derivative test is a little weirder.
 
+\paragraph{The Test: }
+If $(a, b)$ has $f_x, f_y = 0$, let $$D = D(a, b) = f_{xx}(a, b)f_{yy}(a, b) - [f_xy(a, b)]^2$$
+\begin{enumerate}
+\item If $D > 0$ and $f_{xx} > 0$, then $f(a, b)$ is a local \textbf{minimum}. 
+\item If $D > 0$ and $f_{xx} < 0$, then $f(a, b)$ is a local \textbf{maximum}. 
+\item If $D < 0$ then $f(a, b)$ is a \textbf{saddle point}. 
+\item If $D = 0$ no information is gained.
+\end{enumerate}
 
+\paragraph{Memory trick for $D$}
+$$D = |
+\begin{bmatrix}
+	f_{xx} & f_{xy} \\
+	f_{yx} & f_{yy}
+\end{bmatrix}
+|$$
 
+\subsection{Absolute Max/Min Values}
+\paragraph{What is a bounded set? }
+Remember how we needed to have the extreme value theorem only applied to intervals that included the endpoints (i.e. $[a, b]$ but not $(a, b)$)?
 
+Same with the new extreme value theorem for $R^2$. When you define a disk like $$D = {(x, y) | x^2 + y^2 \leq 1}$$ you NEED to have a $\leq$ in order to have a \textbf{closed set}.
 
+\subsubsection{Extreme Value Theorem for Functions of Two Variables}
+If disk $D$ is a closed set where continuous function $f(x, y)$ is defined in $R^2$, it will achieve a maximum and a minimum point at some points in $D$.
 
+\paragraph{How to find absolute min/max on disk $D$: } 
+\begin{enumerate}
+\item Find the values of f at critical points (first derivatives = 0) in $D$
+\item Find extreme values of f on boundary $D$.
+\item Largest value found are absolute maximae, smallest value found is absolute minimum.
+\end{enumerate}
 
+\section{Lagrange Multipliers}
+Basically a way to solve for the global max/min of functions of many variables (e.g. $f(x, y)$ under some constraint $g(x, y) = k$
 
+You gotta find max/min $c$ s.t. $f(x, y) = c$ while $g(x, y) = k$ still.
 
+This happens when $f(x, y)$ and $g(x, y) = k$ have common tangent lines $\frac{dy}{dx}$ (otherwise $c$ could be increased further).
 
+Therefore the normal lines where $f$ and $g$ touch are the same. And so $$\nabla f(x_0, y_0) = \lambda \nabla g(x_0, y_0)$$ when intersection is maximized (for some Lagrange Multiplier $\lambda$)
 
+\subsection{Method of Lagrange Multipliers}
+To find max/min of $f(x, y, z)$ under constraint $g(x, y, z) = k$:
+\begin{enumerate}
+\item Find all values of $x, y, z$ and $\lambda$ s.t. $$\nabla f(x, y, z) = \lambda \nabla g(x, y, z)$$ and $g(x, y, z) = k$.
+\item Evaluate $f$ at all found points. The largest is the maximum and the smallest is the minimum of $f$ under condition $g$.
+\end{enumerate}
+(Assuming exterme values exist and $\nabla g \neq 0$ on surface $g(x, y, z) = k$)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\subsection{Lagrange Multipliers with Two Constraints}
+Now we have to find two multipliers $\mu$ and $\lambda$ as follows:
+$$\nabla f(x, y, z) = \lambda \nabla g(x, y, z) + \mu \nabla h(x, y, z)$$
 
 
 
