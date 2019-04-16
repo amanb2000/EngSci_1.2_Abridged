@@ -226,9 +226,6 @@ $$S = \int_a^b 2\pi y \sqrt{1+(\frac{dx}{dy})^2}dy$$
 $$S = \int 2\pi y ds$$
 
 \paragraph{Simplified: For rotation around $y$-axis}
-$$S = \int 2\pi x ds$$
-
-Where $$ds = \sqrt{1+(\frac{dy}{dx})^2}dx$$ or $$ds = \sqrt{1+(\frac{dx}{dy})^2)}dy$$
 
 \section{Applications to Physics and Engineering}
 \subsection{Hydrostatic Force}

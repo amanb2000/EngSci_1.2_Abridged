@@ -146,7 +146,7 @@ The general way we balance binary search trees is with \textbf{rotations}
 
 \subsection{Right Rotation: }
 The left child becomes the head. The left child's parent (the root) becomes the right child, and the left child of the left child becomes maintains its relationship with the left child of the root. The original left child's RIGHT child becomes the left child of the original root. 
-\paragraph{When to do this? } whenever nL - nR $\geq$ 2
+\paragraph{When to do this? } whenever nL - nR $\geq$ 2...?
 
 \subsection{Left Rotation: }
 The right child becomes the head. The right child's parent (the root) becomes the left child, and the right vhild of the right child maintains its relationship with the right child of the original root. The original right child's LEFT child becomes the right child of the original root. 
@@ -222,7 +222,7 @@ Operations:
 The queue can be an ordered list, unordered list, binary search tree, and more. 
 
 \section{Hashes and Strings}
-Hashes = way to maintain a dictionary. Takes advantage of $O(1)$ complexity of finding something once you know its key (location) in a list/array. 
+Hashes = way to maintain a dictionary. Takes advantage of $O(n)$ complexity of finding something once you know its key (location) in a list/array. 
 
 \paragraph{Example: } indexing strings. Hash function uses each letter as a number in a base-alphabet number system. Then you map any string to unimaginably large numbers. To find where they should go in an array, take the output \% the size of the array.
 
@@ -234,10 +234,10 @@ Hashes = way to maintain a dictionary. Takes advantage of $O(1)$ complexity of f
 
 \section{Heap}
 Max heap = top heavy. Min heap = bottom heavy.
-\subsection{Implementation as List (0-indexed)}
+\subsection{Implementation as List}
 \begin{enumerate}
-\item Child 1 Index = Parent Index*2 + 1
-\item Parent Index = (Child Index-1) // 2
+\item Child Index = Parent Index...
+\item ...
 \end{enumerate}
 
 \subsection{Adding to a Heap}
@@ -309,19 +309,6 @@ You can only find topological ordering for some graphs. They must be \textbf{dir
 \item If $A+{ij}$ is non-zero value $a$ then vertex $i$ is connected to $j$ with weight $a$
 \end{itemize}
 
-\section{Dijkstra's Algorithm: Pathfinding}
-Here are the steps to run this algorithm by hand:
-\begin{enumerate}
-\item Start with a set of visited nodes, unvisited nodes, and a set of tentative weights all set to infinity (except for the starting node)
-\item At each step, see what the minimum distance from each visited node to its neighbour is. If the total distance from the starting node is less than the tentative weight currently says, update the weight.
-\item Continue updating the tentative weights and the set of visited/unvisited nodes, along with the paths needed to get to each node.
-\end{enumerate}
-
-\paragraph{Complexity of the Algorithm}
-Time complexity: $O(n^2)$ (worst case, discussed in textbook)
-
-
-
 \chapter{Bit Manipulation}
 Have you ever wanted to be a cool computer person who does things with ones and zero's instead of actual letters and numbers like a normal person? If so, this is the right chapter for you!
 
@@ -354,8 +341,8 @@ Just go through base 2 fam.
 \item $|$ - Or operator; Outputs 1 if at least one of the inputs at that bit are 1. 
 \item $\hat{}$ - Exclusive or operator (xor); Outputs one if only one fo the inputs is 1. 
 \item \textasciitilde - Not operator; flips the bits (e.g. ~a = opposite of a)
-\item $<<$ - shift left operator; shifts all bits left, padding the right in with zeros (e.g. $c = a << 2;$)
-\item $>>$ - shift right operator; shifts all bits right, padding left with zeros (e.g. $c = a >> 2;$)
+\item $<<$ - shift left operator; shifts all bits left, padding the right in with zeros (e.g. c = a << 2;)
+\item $>>$ - shift right operator; shifts all bits right, padding left with zeros (e.g. c = a >> 2;)
 \end{enumerate}
 
 \chapter{Sorting and Searching Algorithms}
@@ -412,21 +399,7 @@ Radix Sort & $\Omega(nk)$ & $\Theta(nk)$ & $O(nk)$ \\
 \end{enumerate}
 
 \section{Quick Sort}
-\subsection{Partition}
-This takes a list and 2 inputs including the begin and end index of the section.
 \begin{enumerate}
-\item The end element is the 'pivot'.
-\item You set your 'first high' to the beginning element
-\item You go through with a counter i
-\item If the thing at 'i' is smaller than the pivot, you swap it with whatever is at 'first high' and add one to 'first high'.
-\item Repeat this, then swap the element at 'pivot' with the element at 'first high'
-\item Return the index of 'first high'. You just partitioned the list into 2 parts around the pivot.
-\end{enumerate}
-
-\subsection{Quick Sort}
-\begin{enumerate}
-\item Just keep running the partition algorithm recursively, fam.
-\end{enumerate}
 
 \section{Radix Sort}
 \begin{enumerate}
